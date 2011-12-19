@@ -1,0 +1,24 @@
+<resources>
+	<string-array name="api_mode">
+		<item>BlueVia Client</item>
+		<item>OneAPI Client</item>
+	</string-array>
+	<string-array name="working_mode">
+		<item>HTTP_LIVE</item>
+		<item>HTTP_SANDBOX</item>
+		<item>TEST_OK</item>
+		<item>TEST_UNAUTHORIZED</item>
+		<item>TEST_ERROR_IOEXCEPTION</item>
+		<item>TEST_ERROR_HTTPEXCEPTION</item>
+	</string-array>
+	<string-array name="attachments">
+		<item>Add image</item>
+		<item>Add video</item>
+		<item>Add audio</item>
+	</string-array>
+	<string-array name="directoryResources">
+		<item>User Access Information</item>
+		<item>User Profile</item>
+		<item>User Terminal Information</item>
+	</string-array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OtafFontWhite" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+	<style name="OtafSpinnerItem" parent="@android:style/Widget.TextView.SpinnerItem">
+	    <item name="android:textAppearance">@style/OtafFontWhite</item>
+	</style>
+	
+	<style name="OtafDefaultTheme" parent="android:style/Theme.NoTitleBar">
+    	<item name="android:spinnerItemStyle">@style/OtafSpinnerItem</item>
+	</style>
+</resources>

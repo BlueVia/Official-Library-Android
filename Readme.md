@@ -128,4 +128,4 @@ The following guides explain the behavior of each Bluevia API, including code sa
 - Location API
 - Payment API
 
-These can be found as part of the library documentation.
+These can be found as part of the library documentation!

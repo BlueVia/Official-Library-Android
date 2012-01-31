@@ -1,6 +1,6 @@
 ## Developer Guide ##
 
-This guide explains how to prepare your computer to develop BlueVia applications for Android devices.
+This guide explains how to prepare your computer to develop BlueVia applications for Android devices
 
 ## Getting started ##
 

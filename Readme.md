@@ -1,10 +1,10 @@
 ## Developer Guide ##
 
-This guide explains how to prepare your computer to develop BlueVia applications for Android devices
+This guide explains how to prepare your computer to develop BlueVia applications for Android devices.
 
 ## Getting started ##
 
-This guide explains how to prepare your computer to develop BlueVia applications for Android devices. First check out the system requirements that your computer must meet, and then follow the installation steps. Once you have finished you will be able to develop your first Android application using the functionality provided by Bluevia APIs.
+This guide explains how to prepare your environment to develop BlueVia applications for Android devices. First check out the system requirements that your computer must meet, and then follow the installation steps. Once you have finished you will be able to develop your first Android application using the functionality provided by Bluevia APIs.
 
 ## System requirements ##
 

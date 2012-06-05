@@ -1,0 +1,21 @@
+digraph G
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans.ttf",fontsize="10",labelfontname="FreeSans.ttf",labelfontsize="10"];
+  node [fontname="FreeSans.ttf",fontsize="10",shape=record];
+  Node1 [label="BVMtSms",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node2 [label="BVMtSmsClient",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1sms_1_1client_1_1_b_v_mt_sms_client.html"];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node3 [label="BVMtClient",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1client_1_1_b_v_mt_client.html"];
+  Node4 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node4 [label="BVBaseClient",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1commons_1_1client_1_1_b_v_base_client.html"];
+  Node5 -> Node4 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mConnector",fontname="FreeSans.ttf"];
+  Node5 [label="IConnector",height=0.2,width=0.4,color="black",URL="$interfacecom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1_i_connector.html"];
+  Node6 -> Node4 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mEncoding",fontname="FreeSans.ttf"];
+  Node6 [label="Encoding",height=0.2,width=0.4,color="grey75"];
+  Node7 -> Node4 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mErrorParser\nmParser",fontname="FreeSans.ttf"];
+  Node7 [label="IParser",height=0.2,width=0.4,color="black",URL="$interfacecom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1_i_parser.html"];
+  Node8 -> Node4 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mSerializer",fontname="FreeSans.ttf"];
+  Node8 [label="ISerializer",height=0.2,width=0.4,color="black",URL="$interfacecom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1_i_serializer.html"];
+}

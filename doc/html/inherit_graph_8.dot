@@ -1,0 +1,16 @@
+digraph G
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans.ttf",fontsize="10",labelfontname="FreeSans.ttf",labelfontsize="10"];
+  node [fontname="FreeSans.ttf",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="Decoder",height=0.2,width=0.4,color="black",URL="$interfacecom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1codec_1_1_decoder.html"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node2 [label="BinaryDecoder",height=0.2,width=0.4,color="black",URL="$interfacecom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1codec_1_1_binary_decoder.html"];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node3 [label="Base64",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1codec_1_1_base64.html"];
+  Node4 [label="Encoder",height=0.2,width=0.4,color="black",URL="$interfacecom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1codec_1_1_encoder.html"];
+  Node4 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node5 [label="BinaryEncoder",height=0.2,width=0.4,color="black",URL="$interfacecom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1codec_1_1_binary_encoder.html"];
+  Node5 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+}

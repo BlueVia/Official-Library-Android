@@ -1,0 +1,13 @@
+digraph G
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans.ttf",fontsize="10",labelfontname="FreeSans.ttf",labelfontsize="10"];
+  node [fontname="FreeSans.ttf",fontsize="10",shape=record];
+  Node1 [label="StringPart",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node2 [label="BlueviaPartBase",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1_bluevia_part_base.html"];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node3 [label="PartBase",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1_part_base.html"];
+  Node4 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node4 [label="Part",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1_part.html"];
+}

@@ -1,0 +1,16 @@
+digraph G
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans.ttf",fontsize="10",labelfontname="FreeSans.ttf",labelfontsize="10"];
+  node [fontname="FreeSans.ttf",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="BlueviaException",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1commons_1_1exception_1_1_bluevia_exception.html"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node2 [label="ConnectorException",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1commons_1_1exception_1_1_connector_exception.html"];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node3 [label="HttpException",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1_http_exception.html"];
+  Node1 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node4 [label="ParseException",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1_parse_exception.html"];
+  Node1 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node5 [label="SerializeException",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1_serialize_exception.html"];
+}

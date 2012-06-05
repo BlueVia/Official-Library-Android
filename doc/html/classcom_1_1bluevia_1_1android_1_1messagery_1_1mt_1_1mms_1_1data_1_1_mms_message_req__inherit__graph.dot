@@ -1,0 +1,11 @@
+digraph G
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans.ttf",fontsize="10",labelfontname="FreeSans.ttf",labelfontsize="10"];
+  node [fontname="FreeSans.ttf",fontsize="10",shape=record];
+  Node1 [label="MmsMessageReq",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node2 [label="AbstractMessage",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1messagery_1_1data_1_1_abstract_message.html"];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node3 [label="Entity",height=0.2,width=0.4,color="black",URL="$interfacecom_1_1bluevia_1_1android_1_1commons_1_1_entity.html"];
+}

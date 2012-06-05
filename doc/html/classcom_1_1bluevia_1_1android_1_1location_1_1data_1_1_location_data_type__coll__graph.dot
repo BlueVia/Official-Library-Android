@@ -1,0 +1,25 @@
+digraph G
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans.ttf",fontsize="10",labelfontname="FreeSans.ttf",labelfontsize="10"];
+  node [fontname="FreeSans.ttf",fontsize="10",shape=record];
+  Node1 [label="LocationDataType",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node2 [label="Entity",height=0.2,width=0.4,color="black",URL="$interfacecom_1_1bluevia_1_1android_1_1commons_1_1_entity.html"];
+  Node3 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mLocatedParty",fontname="FreeSans.ttf"];
+  Node3 [label="UserId",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1commons_1_1data_1_1_user_id.html"];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node4 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mErrorInformation",fontname="FreeSans.ttf"];
+  Node4 [label="ServiceErrorType",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1location_1_1data_1_1_service_error_type.html"];
+  Node2 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node5 -> Node4 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mVariables",fontname="FreeSans.ttf"];
+  Node5 [label="ArrayList\< String \>",height=0.2,width=0.4,color="grey75"];
+  Node6 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mCurrentLocation",fontname="FreeSans.ttf"];
+  Node6 [label="LocationInfoType",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1location_1_1data_1_1_location_info_type.html"];
+  Node2 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node7 -> Node6 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mCoordinates",fontname="FreeSans.ttf"];
+  Node7 [label="CoordinatesType",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1location_1_1data_1_1_coordinates_type.html"];
+  Node2 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node8 -> Node6 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mTimestamp",fontname="FreeSans.ttf"];
+  Node8 [label="Date",height=0.2,width=0.4,color="grey75"];
+}

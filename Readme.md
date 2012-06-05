@@ -1,148 +1,63 @@
 ## Set up your environment
 
-This section explains how to prepare your development environment to start working with the Bluevia Java SDK. First check out the system requirements that your computer must meet, and then follow the installation steps. Once you have finished you will be able to develop your first Java application using the functionality provided by Bluevia APIs.
+This section explains how to prepare your development environment to start working with the Bluevia Android SDK. First check out the system requirements that your computer must meet, and then follow the installation steps. Once you have finished you will be able to develop your first Android application using the functionality provided by Bluevia APIs.
 
 ### System requeriments
 
-The Bluevia library for Java is prepared and has been tested to develop applications under Java 1.6. 
+The Bluevia library for Android is prepared and has been tested to develop applications under Android SDK 1.5 to 4.0 versions. 
+
+Android SDK is the only system requirement for the Bluevia library. The following system requirements are the ones your computer needs to meet to be able to work with the Android SDK:
 
 Supported Operating Systems
-  - Windows XP (32-bit) or Vista (32- or 64-bit) or Windows 7
+  - Windows XP (32-bit) or Vista (32- or 64-bit)
   - Mac OS X 10.5.8 or later (x86 only)
   - Linux (tested on Linux Ubuntu Hardy Heron)
- 
-
-### Step 1: Preparing the environment
-The first step to start developing applications is setting up your environment.
 
 Developing environment
   - Eclipse 3.4 or greater
-  - Maven 2
-  - Maven plugin for Eclipse
+  - Eclipse JDT plugin (included in most Eclipse IDE packages)
+  - JDK 5 or JDK 6 (JRE alone is not sufficient)
+  - Android Development Tools plugin (optional)
 
-It is not strictly necessary to use Eclipse and Maven as your development environment, but it is recommended to manage dependencies in your projects.
+For complete information visit the system requirements described in Android Developers.
 
+### Step 1: Preparing the Android environment
+The first step to start developing applications is setting up your Android environment. You have to download the Android SDK and the ADT plugin, in case you choose to use Eclipse as your IDE. After installing the starter package you may use the SDK tools to add the Android platforms you consider. If you have already prepared your computer to develop Android applications you can skip to step 2; otherwise follow the next instructions:
+  - Prepare your development computer and ensure it meets the system requirements.
+  - Install the SDK starter package from the table above. (If you're on Windows, download the installer for help with the initial setup).
+  - Install the ADT Plugin for Eclipse (if you'll be developing in Eclipse).
+  - Add Android platforms and other components to your SDK.
 
-### Step 2: Add BlueVia Java SDK in your project
+Visit Android Developers for complete instructions: [downloading and installing Android SDK](http://developer.android.com/sdk/installing.html).
 
-Depending on whether or not you are using Maven, you will have to add library dependencies to the project classpath or just edit your pom.xml to enable Maven to manage them:
-
-Eclipse standalone project
-
-You have to include the library in your Eclipse project and configure the dependencies:
-
-    Download Bluevia Library and save it in your hard disk:
-
-    Bluevia Java SDK
-
-    Create your Project in Eclipse: select File > New > Java Project.
-
-    Include the Bluevia Library into the Java build path:
-        As JAR file:
-            Select Project > Properties.
-            In Java Build Path section, click on Libraries tab.
-        As source code:
-            Select Project > Properties.
-            In Java Build Path section, click on Source tab.
-            Click on Add folder and select the path of the source.
-    Finally, include the JAR dependencies of Bluevia SDK in Libraries tab clicking on Add External JARs (The JAR files are included in "dependency" folder).
-
-Maven project
-
-    Download Bluevia Library and save it in your hard disk:
-
-    Bluevia Java SDK
-
-    Create your Project in Eclipse: select File > New > Maven Project.
-
-    Include the Bluevia Library into the Java build path:
-        As JAR file:
-            Select Project > Properties.
-            In Java Build Path section, click on Libraries tab.
-        As source code:
-            Select Project > Properties.
-            In Java Build Path section, click on Source tab.
-            Click on Add folder and select the path of the source.
-
-    Finally, edit the pom.xml file adding the following lines to include the library dependencies:
-
-    <dependencies>
-    ..............
-                    <dependency>
-                            <groupId>commons-httpclient</groupId>
-                            <artifactId>commons-httpclient</artifactId>
-                            <version>3.1</version>
-                    </dependency>
-                    <dependency>
-                            <groupId>org.apache.httpcomponents</groupId>
-                            <artifactId>httpclient</artifactId>
-                            <version>4.1.3</version>
-                    </dependency>
-                    <dependency>
-                            <groupId>org.apache.httpcomponents</groupId>
-                            <artifactId>httpmime</artifactId>
-                            <version>4.1.3</version>
-                    </dependency>
-                    <dependency>
-                            <groupId>org.apache.httpcomponents</groupId>
-                            <artifactId>httpclient-cache</artifactId>
-                            <version>4.1.3</version>
-                    </dependency>
-                    <dependency>
-                            <groupId>org.apache.httpcomponents</groupId>
-                            <artifactId>httpcore</artifactId>
-                            <version>4.1.3</version>
-                    </dependency>
-                    <dependency>
-                    <groupId>commons-lang</groupId>
-                    <artifactId>commons-lang</artifactId>
-                    <version>1.0</version>
-            </dependency>
-                    <dependency>
-                            <groupId>commons-codec</groupId>
-                            <artifactId>commons-codec</artifactId>
-                            <version>1.3</version>
-                    </dependency>
-                    <dependency>
-                            <groupId>junit</groupId>
-                            <artifactId>junit</artifactId>
-                            <version>3.8.1</version>
-                            <scope>test</scope>
-                    </dependency>
-                    <dependency>
-                            <groupId>oauth.signpost</groupId>
-                            <artifactId>signpost-core</artifactId>
-                            <version>1.2.1.1</version>
-                    </dependency>
-                    <dependency>
-                            <groupId>oauth.signpost</groupId>
-                            <artifactId>signpost-commonshttp4</artifactId>
-                            <version>1.2.1.1</version>
-                    </dependency>
-                    <dependency>
-                            <groupId>commons-logging</groupId>
-                            <artifactId>commons-logging</artifactId>
-                            <version>1.1</version>
-                    </dependency>
-                    <dependency>
-                            <groupId>javax.mail</groupId>
-                            <artifactId>mail</artifactId>
-                            <version>1.4</version>
-                    </dependency>
-    ..............
-    </dependencies>
+### Step 2: Add BlueVia Android SDK in your project
+There are two ways include the Bluevia library in your Android application: as an external jar or including the source of the library itself. Both the jar and the source are included in the SDK zip file. Follow the next steps to set up your Android project:
+  - Create your Android Project in Eclipse: select File > New > Android Project.
+  - Include the Bluevia Library into the Java build path:
+      1.- As a JAR file:
+           - Select Project > Properties.
+           - In Java Build Path section, click on Libraries tab.
+           - Finally, click on Add External JARs and select the path where you put the Bluevia Library JAR.
+      2.- As Android library project:
+           - Import the Android library project in Eclipse: 
+             File  > Import... > Existing projects into workspace... and search the BlueviaSDK project where you downloaded it.
+           - Select your application project and click on Project > Properties.
+           - In Android section, under Library options, click on Add button.
+           - Select BlueviaSDK project and accept.
 
 
 ## Code samples 
 You can find a set of complete sample apps on this repository:
-- [/samples/sample](../samples/src/samples/AdvertisingExample.java) : Gets advertising
-- [/samples/sample](../samples/src/samples/DirectoryExample.java) : Gets user and user equipement information
-- [/samples/sample](../samples/src/samples/LocationExample.java) : Gets the location of a user
-- [/samples/sample](../samples/src/samples/mms/MmsExample.java) : Sends MMS and a Check Delivery Status (MMS MT). Receive MMS (MMS MO)
-- [/samples/sample](../samples/src/samples/OAuthExample.java) : Demostrates OAuth process negotiation
-- [/samples/sample](../samples/src/samples/PaymentExample.java) : Performs a Payment 
-- [/samples/sample](../samples/src/samples/sms/SmsExample.java) : Sends SMS and a Check Delivery Status (SMS MT). Receive SMS (SMS MO)
 
+- [/samples/sample](../Examples/src/com/bluevia/android/examples/payment/PaymentExampleActivity.java) : Performs a Payment 
+- [/samples/sample](../Examples/src/com/bluevia/android/examples/oauth/OauthExampleActivity.java) : Demostrates OAuth process negotiation
+- [/samples/sample](../Examples/src/com/bluevia/android/examples/sms/SmsMTExampleActivity.java) : Sends SMS and a Check Delivery Status
+- [/samples/sample](../Examples/src/com/bluevia/android/examples/sms/SmsMOExampleActivity.java) : Receive SMS.
+- [/samples/sample](../Examples/src/com/bluevia/android/examples/mms/MmsMTExampleActivity.java) : Sends MMS and a Check Delivery Status
+- [/samples/sample](../Examples/src/com/bluevia/android/examples/mms/MmsMOExampleActivity.java) : Receive SMS.
+- [/samples/sample](../Examples/src/com/bluevia/android/examples/location/LocationExampleActivity.java) : Gets the location of a user
+- [/samples/sample](../Examples/src/com/bluevia/android/examples/directory/DirectoryExampleActivity.java) : Gets user and user equipement information
+- [/samples/sample](../Examples/src/com/bluevia/android/examples/ad/AdExampleActivity.java) : Gets advertising
 
 Please find below also some quick snippets on how to use the library.
 
@@ -167,7 +82,11 @@ By using your API key, you have to create a request token that is required to st
 There are two alternatives to request the user authorisation:
 
   - OutOfBand authorisation
-To get user authorization using the oauth_token from your request token you have to take the user to BlueVia. The obtained request token contains the verification url to access to the BlueVia portal. Depending on the mode used, it will be available for final users (LIVE) or developers (TEST and SANDBOX). The application should enable the user (customer) to visit the url in any way, where he will have to introduce its credentials (user and password) to authorise the application to connect BlueVia APIs behalf him. Once permission has been granted, the user will obtain a PIN code necessary to exchange the request token for the access token.
+To get user authorization using the oauth_token from your request token you have to take the user to BlueVia. The obtained request token contains the verification url to access to the BlueVia portal. Depending on the mode used, it will be available for final users (LIVE) or developers (TEST and SANDBOX). The application should enable the user (customer) to visit the url in any way, where he will have to introduce its credentials (user and password) to authorise the application to connect BlueVia APIs behalf him. Once permission has been granted, the user will obtain a PIN code necessary to exchange the request token for the access token:
+  // Open the received url in a browser using an Intent
+  Uri url = Uri.parse(requestToken.getVerificationUrl());
+  Intent i = new Intent(Intent.ACTION_VIEW, url);
+  startActivity(i);
 
 Once the user confirms the authorization, you have to ask the user to enter the oauth_verifier in your app. Note that your users will need to copy and paste the oauth_verifier manually, so be clear when you request it to be sure they do not get confused.
 
@@ -216,22 +135,13 @@ You need to keep the deliveryStatusId to ask about the delivery status of that S
   ArrayList<DeliveryInfo> statusObj = smsClient.getDeliveryStatus(smsId);
   for (DeliveryInfo singleStatus : statusObj) {
     Status status = singleStatus.getStatus();
-    log.info("Message status: " + status); 
+    Log.i(TAG, "Message status: " + status); 
   }	
-
-#### Subscribe/Unsusbcribe notifications (SMS)
-It is possible to receive status notifications by providing BlueVia with an URI where notifications must be sent. This URI is provided during the SMS sending, including the optional parameters endpoint and correlator:
-
-	// Subscribe notifications
-	String correlator= smsClient.startNotification(phoneNumber, endpoint, criteria);
-
-	//Unsubscribe from notification
-	smsClient.stopNotification(correlator);
 
 ### Send MMS and get delivery status 
 MMS API enables your application to send an MMS on behalf of the user, check the delivery status of a sent MMS and Receive an MMS on your application.
 
-#### Sending MMS
+#### Sending SMS
   BVMtMms mmsClient = new BVMtMms(Mode.LIVE, "consumer_key", "consumer_secret", "access_token", "access_token_secret");
   Several attachments could be attached to the MMS message. The class that represent multipart attachment is Attachment, which specifies the path of the attachment and its Content-type:
   
@@ -253,19 +163,9 @@ You need to keep the deliveryStatusId to ask about the delivery status of that M
   ArrayList<DeliveryInfo> statusObj = mmsClient.getDeliveryStatus(mmsId);
   for (DeliveryInfo singleStatus : statusObj) {
     Status status = singleStatus.getStatus();
-    log.info("Message status: " + status); 
+    Log.i(TAG, "Message status: " + status); 
   }	
 
-#### Subscribe/Unsusbcribe notifications (MMS)
-It is possible to receive status notifications by providing BlueVia with an URI where notifications must be sent. This URI is provided during the SMS sending, including the optional parameters endpoint and correlator:
-
-	// Subscribe notifications
-	String correlator= mmsClient.startNotification(phoneNumber, endpoint, criteria);
-
-	//Unsubscribe from notification
-	mmsClient.stopNotification(correlator);
-	
-	
 ### Receive SMS 
 You can can retrieve the SMS sent to your app using OAuth-2-legged auhtorisation so no user access token is required.
   BVMoSms smsMoClient = new BVMoSms(Mode.LIVE, "consumer_key", "consumer_secret");
@@ -276,7 +176,7 @@ You can grab messages sent from users to you app as follows:
   String registrationId = "553456"
   ArrayList<SmsMessage> list = smsMoClient.getAllMessages(registrationId); 
   for (SmsMessage mms : list){      
-    log.info("Received sms: " + sms.getMessage()); 
+    Log.i(TAG, "Received sms: " + sms.getMessage()); 
   }
 
 Note that this is just an example and you should implement a more efficient polling strategy.

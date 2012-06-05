@@ -1,7 +1,7 @@
 var NAVTREE =
 [
-  [ "SDK", "index.html", [
-    [ "Developer's Guide", "index.html", null ],
+  [ "BlueViaAndroidSDK", "index.html", [
+    [ "Developer Guide", "index.html", null ],
     [ "Related Pages", "pages.html", [
       [ "Oauth reference", "blv_oauth_guide.html", null ],
       [ "SMS MT API guide", "blv_sms_mt_guide.html", null ],
@@ -14,381 +14,343 @@ var NAVTREE =
       [ "Payment API guide", "blv_payment_guide.html", null ]
     ] ],
     [ "Class List", "annotated.html", [
-      [ "com.bluevia.messagery.data.AbstractMessage", "classcom_1_1bluevia_1_1messagery_1_1data_1_1AbstractMessage.html", null ],
-      [ "com.bluevia.messagery.mo.data.AbstractReceivedMessage", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1data_1_1AbstractReceivedMessage.html", null ],
-      [ "com.bluevia.directory.data.AccessInfo", "classcom_1_1bluevia_1_1directory_1_1data_1_1AccessInfo.html", null ],
-      [ "com.bluevia.ad.data.Ad", "classcom_1_1bluevia_1_1ad_1_1data_1_1Ad.html", null ],
-      [ "com.bluevia.commons.connector.http.AdditionalData", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1AdditionalData.html", null ],
-      [ "com.telefonica.schemas.unica.rest.common.v1.AddressType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1common_1_1v1_1_1AddressType.html", null ],
-      [ "com.bluevia.ad.data.AdRequest", "classcom_1_1bluevia_1_1ad_1_1data_1_1AdRequest.html", null ],
-      [ "com.bluevia.ad.data.AdResponse", "classcom_1_1bluevia_1_1ad_1_1data_1_1AdResponse.html", null ],
-      [ "com.bluevia.ad.data.AdsAttribute", "classcom_1_1bluevia_1_1ad_1_1data_1_1AdsAttribute.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sgap.v1.AdType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sgap_1_1v1_1_1AdType.html", null ],
-      [ "com.bluevia.messagery.mt.mms.data.Attachment", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1mms_1_1data_1_1Attachment.html", null ],
-      [ "com.bluevia.messagery.mo.mms.data.MmsMessageInfo.AttachmentInfo", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1mms_1_1data_1_1MmsMessageInfo_1_1AttachmentInfo.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sgap.v1.AttributeType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sgap_1_1v1_1_1AttributeType.html", null ],
-      [ "com.bluevia.commons.connector.http.multipart.Base64OutputStreamEncoder", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1multipart_1_1Base64OutputStreamEncoder.html", null ],
-      [ "com.bluevia.commons.exception.BlueviaException", "classcom_1_1bluevia_1_1commons_1_1exception_1_1BlueviaException.html", null ],
-      [ "com.bluevia.commons.connector.http.multipart.BlueviaPartBase", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1multipart_1_1BlueviaPartBase.html", null ],
-      [ "com.bluevia.ad.client.BVAdvertising", "classcom_1_1bluevia_1_1ad_1_1client_1_1BVAdvertising.html", null ],
-      [ "com.bluevia.ad.client.BVAdvertisingClient", "classcom_1_1bluevia_1_1ad_1_1client_1_1BVAdvertisingClient.html", null ],
-      [ "com.bluevia.commons.connector.http.oauth.BVAuthorizationHeaderSigningStrategy", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1oauth_1_1BVAuthorizationHeaderSigningStrategy.html", null ],
-      [ "com.bluevia.commons.client.BVBaseClient", "classcom_1_1bluevia_1_1commons_1_1client_1_1BVBaseClient.html", null ],
-      [ "com.bluevia.commons.connector.http.oauth.BVCommonsHttpOauthProvider", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1oauth_1_1BVCommonsHttpOauthProvider.html", null ],
-      [ "com.bluevia.directory.client.BVDirectory", "classcom_1_1bluevia_1_1directory_1_1client_1_1BVDirectory.html", null ],
-      [ "com.bluevia.directory.client.BVDirectoryClient", "classcom_1_1bluevia_1_1directory_1_1client_1_1BVDirectoryClient.html", null ],
-      [ "com.bluevia.location.client.BVLocation", "classcom_1_1bluevia_1_1location_1_1client_1_1BVLocation.html", null ],
-      [ "com.bluevia.location.client.BVLocationClient", "classcom_1_1bluevia_1_1location_1_1client_1_1BVLocationClient.html", null ],
-      [ "com.bluevia.messagery.mo.client.BVMoClient", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1client_1_1BVMoClient.html", null ],
-      [ "com.bluevia.messagery.mo.mms.client.BVMoMms", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1mms_1_1client_1_1BVMoMms.html", null ],
-      [ "com.bluevia.messagery.mo.mms.client.BVMoMmsClient", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1mms_1_1client_1_1BVMoMmsClient.html", null ],
-      [ "com.bluevia.messagery.mo.sms.client.BVMoSms", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1sms_1_1client_1_1BVMoSms.html", null ],
-      [ "com.bluevia.messagery.mo.sms.client.BVMoSmsClient", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1sms_1_1client_1_1BVMoSmsClient.html", null ],
-      [ "com.bluevia.messagery.mt.client.BVMtClient", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1client_1_1BVMtClient.html", null ],
-      [ "com.bluevia.messagery.mt.mms.client.BVMtMms", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1mms_1_1client_1_1BVMtMms.html", null ],
-      [ "com.bluevia.messagery.mt.mms.client.BVMtMmsClient", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1mms_1_1client_1_1BVMtMmsClient.html", null ],
-      [ "com.bluevia.messagery.mt.sms.client.BVMtSms", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1sms_1_1client_1_1BVMtSms.html", null ],
-      [ "com.bluevia.messagery.mt.sms.client.BVMtSmsClient", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1sms_1_1client_1_1BVMtSmsClient.html", null ],
-      [ "com.bluevia.oauth.client.BVOauth", "classcom_1_1bluevia_1_1oauth_1_1client_1_1BVOauth.html", null ],
-      [ "com.bluevia.oauth.client.BVOauthClient", "classcom_1_1bluevia_1_1oauth_1_1client_1_1BVOauthClient.html", null ],
-      [ "com.bluevia.payment.client.BVPayment", "classcom_1_1bluevia_1_1payment_1_1client_1_1BVPayment.html", null ],
-      [ "com.telefonica.schemas.unica.rest.common.v1.ClientExceptionType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1common_1_1v1_1_1ClientExceptionType.html", null ],
-      [ "com.bluevia.commons.exception.ConnectorException", "classcom_1_1bluevia_1_1commons_1_1exception_1_1ConnectorException.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.CoordinatesType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1CoordinatesType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.location.v1.CoordinatesType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1location_1_1v1_1_1CoordinatesType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.CoordinatesType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1CoordinatesType.html", null ],
-      [ "com.bluevia.ad.data.simple.CreativeElement", "classcom_1_1bluevia_1_1ad_1_1data_1_1simple_1_1CreativeElement.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sgap.v1.CreativeElementType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sgap_1_1v1_1_1CreativeElementType.html", null ],
-      [ "com.bluevia.messagery.mt.data.DeliveryInfo", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1data_1_1DeliveryInfo.html", null ],
-      [ "com.bluevia.messagery.mt.data.DeliveryInfoList", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1data_1_1DeliveryInfoList.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.DeliveryInformationType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1DeliveryInformationType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.DeliveryInformationType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1DeliveryInformationType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.DeliveryReceiptNotificationType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1DeliveryReceiptNotificationType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.DeliveryReceiptNotificationType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1DeliveryReceiptNotificationType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.DeliveryStatusUpdateType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1DeliveryStatusUpdateType.html", null ],
-      [ "com.bluevia.commons.Entity", "interfacecom_1_1bluevia_1_1commons_1_1Entity.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.definition.v1.ErrorType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1definition_1_1v1_1_1ErrorType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.common.v1.ExtensionType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1common_1_1v1_1_1ExtensionType.html", null ],
-      [ "com.bluevia.commons.connector.http.multipart.FilePart", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1multipart_1_1FilePart.html", null ],
-      [ "com.bluevia.directory.data.FilterConstants", "classcom_1_1bluevia_1_1directory_1_1data_1_1FilterConstants.html", null ],
-      [ "com.bluevia.directory.data.FilterUtils", "classcom_1_1bluevia_1_1directory_1_1data_1_1FilterUtils.html", null ],
-      [ "com.bluevia.ad.data.FullCreativeElement", "classcom_1_1bluevia_1_1ad_1_1data_1_1FullCreativeElement.html", null ],
-      [ "com.bluevia.commons.connector.GenericResponse", "classcom_1_1bluevia_1_1commons_1_1connector_1_1GenericResponse.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.payment.v1.GetPaymentStatusParamsType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1payment_1_1v1_1_1GetPaymentStatusParamsType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.payment.v1.GetPaymentStatusResultType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1payment_1_1v1_1_1GetPaymentStatusResultType.html", null ],
-      [ "com.bluevia.commons.GsdpConstants", "classcom_1_1bluevia_1_1commons_1_1GsdpConstants.html", null ],
-      [ "com.bluevia.commons.connector.http.HttpConnector", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1HttpConnector.html", null ],
-      [ "com.bluevia.commons.connector.http.HttpException", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1HttpException.html", null ],
-      [ "com.bluevia.commons.connector.IAuth", "interfacecom_1_1bluevia_1_1commons_1_1connector_1_1IAuth.html", null ],
-      [ "com.bluevia.commons.connector.IConnector", "interfacecom_1_1bluevia_1_1commons_1_1connector_1_1IConnector.html", null ],
-      [ "com.bluevia.ad.data.Interaction", "classcom_1_1bluevia_1_1ad_1_1data_1_1Interaction.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sgap.v1.InteractionType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sgap_1_1v1_1_1InteractionType.html", null ],
-      [ "com.bluevia.commons.connector.http.oauth.IOAuth", "interfacecom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1oauth_1_1IOAuth.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.common.v1.IpAddressType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1common_1_1v1_1_1IpAddressType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.common.v1.IpAddressType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1common_1_1v1_1_1IpAddressType.html", null ],
-      [ "com.bluevia.commons.parser.IParser", "interfacecom_1_1bluevia_1_1commons_1_1parser_1_1IParser.html", null ],
-      [ "com.bluevia.commons.parser.ISerializer", "interfacecom_1_1bluevia_1_1commons_1_1parser_1_1ISerializer.html", null ],
-      [ "com.bluevia.commons.data.JaxbEntity", "classcom_1_1bluevia_1_1commons_1_1data_1_1JaxbEntity.html", null ],
-      [ "com.telefonica.schemas.unica.rest.location.v1.LocationDataType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1location_1_1v1_1_1LocationDataType.html", null ],
-      [ "com.bluevia.location.data.LocationInfo", "classcom_1_1bluevia_1_1location_1_1data_1_1LocationInfo.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.LocationInfoType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1LocationInfoType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.location.v1.LocationInfoType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1location_1_1v1_1_1LocationInfoType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.LocationInfoType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1LocationInfoType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.MessageDeliveryStatusType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1MessageDeliveryStatusType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.MessageNotificationType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1MessageNotificationType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.MessageReferenceType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1MessageReferenceType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.MessageType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1MessageType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.MessageURIType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1MessageURIType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.payment.v1.MethodCallType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1payment_1_1v1_1_1MethodCallType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.definition.v1.MethodCallType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1definition_1_1v1_1_1MethodCallType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.definition.v1.MethodResponseType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1definition_1_1v1_1_1MethodResponseType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.payment.v1.MethodResponseType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1payment_1_1v1_1_1MethodResponseType.html", null ],
-      [ "com.bluevia.messagery.mo.mms.data.MimeContent", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1mms_1_1data_1_1MimeContent.html", null ],
-      [ "com.bluevia.messagery.mo.mms.data.MmsMessage", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1mms_1_1data_1_1MmsMessage.html", null ],
-      [ "com.bluevia.messagery.mo.mms.data.MmsMessageInfo", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1mms_1_1data_1_1MmsMessageInfo.html", null ],
-      [ "com.bluevia.messagery.mt.mms.data.MmsMessageReq", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1mms_1_1data_1_1MmsMessageReq.html", null ],
-      [ "com.bluevia.commons.connector.http.multipart.MultipartEntity", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1multipart_1_1MultipartEntity.html", null ],
-      [ "com.bluevia.messagery.mo.mms.parser.MultipartMmsParser", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1mms_1_1parser_1_1MultipartMmsParser.html", null ],
-      [ "com.telefonica.schemas.unica.rest.directory.v1.NameType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1directory_1_1v1_1_1NameType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.payment.v1.NotifyPaymentFinalStatusParamsType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1payment_1_1v1_1_1NotifyPaymentFinalStatusParamsType.html", null ],
-      [ "com.bluevia.commons.connector.http.oauth.OauthHttpConnector", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1oauth_1_1OauthHttpConnector.html", null ],
-      [ "com.bluevia.commons.connector.http.oauth.OAuthToken", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1oauth_1_1OAuthToken.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.ObjectFactory", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1ObjectFactory.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sgap.v1.ObjectFactory", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sgap_1_1v1_1_1ObjectFactory.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.definition.v1.ObjectFactory", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1definition_1_1v1_1_1ObjectFactory.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.ObjectFactory", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1ObjectFactory.html", null ],
-      [ "com.telefonica.schemas.unica.rest.common.v1.ObjectFactory", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1common_1_1v1_1_1ObjectFactory.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.common.v1.ObjectFactory", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1common_1_1v1_1_1ObjectFactory.html", null ],
-      [ "com.telefonica.schemas.unica.rest.location.v1.ObjectFactory", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1location_1_1v1_1_1ObjectFactory.html", null ],
-      [ "com.telefonica.schemas.unica.rest.directory.v1.ObjectFactory", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1directory_1_1v1_1_1ObjectFactory.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.payment.v1.ObjectFactory", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1payment_1_1v1_1_1ObjectFactory.html", null ],
-      [ "com.telefonica.schemas.unica.rest.common.v1.OtherIdType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1common_1_1v1_1_1OtherIdType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.common.v1.OtherIdType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1common_1_1v1_1_1OtherIdType.html", null ],
-      [ "com.bluevia.commons.parser.ParseException", "classcom_1_1bluevia_1_1commons_1_1parser_1_1ParseException.html", null ],
-      [ "com.bluevia.commons.connector.http.multipart.PartContainer", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1multipart_1_1PartContainer.html", null ],
-      [ "com.bluevia.payment.data.PaymentInfo", "classcom_1_1bluevia_1_1payment_1_1data_1_1PaymentInfo.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.payment.v1.PaymentInfoType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1payment_1_1v1_1_1PaymentInfoType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.payment.v1.PaymentParamsType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1payment_1_1v1_1_1PaymentParamsType.html", null ],
-      [ "com.bluevia.payment.data.PaymentRequestTokenParams", "classcom_1_1bluevia_1_1payment_1_1data_1_1PaymentRequestTokenParams.html", null ],
-      [ "com.bluevia.payment.data.PaymentResult", "classcom_1_1bluevia_1_1payment_1_1data_1_1PaymentResult.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.payment.v1.PaymentResultType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1payment_1_1v1_1_1PaymentResultType.html", null ],
-      [ "com.bluevia.payment.parser.PaymentSerializer", "classcom_1_1bluevia_1_1payment_1_1parser_1_1PaymentSerializer.html", null ],
-      [ "com.bluevia.payment.data.PaymentStatus", "classcom_1_1bluevia_1_1payment_1_1data_1_1PaymentStatus.html", null ],
-      [ "com.bluevia.directory.data.PersonalInfo", "classcom_1_1bluevia_1_1directory_1_1data_1_1PersonalInfo.html", null ],
-      [ "com.bluevia.directory.data.Profile", "classcom_1_1bluevia_1_1directory_1_1data_1_1Profile.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.ReceivedMessageAsyncType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1ReceivedMessageAsyncType.html", null ],
-      [ "com.bluevia.messagery.mo.data.ReceivedMessageList", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1data_1_1ReceivedMessageList.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.ReceivedMessagesType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1ReceivedMessagesType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.ReceivedSMSAsyncType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1ReceivedSMSAsyncType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.ReceivedSMSType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1ReceivedSMSType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.payment.v1.RefundParamsType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1payment_1_1v1_1_1RefundParamsType.html", null ],
-      [ "com.bluevia.commons.connector.http.oauth.RequestToken", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1oauth_1_1RequestToken.html", null ],
-      [ "com.bluevia.ad.data.Resource", "classcom_1_1bluevia_1_1ad_1_1data_1_1Resource.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sgap.v1.ResourceType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sgap_1_1v1_1_1ResourceType.html", null ],
-      [ "com.bluevia.commons.parser.SerializeException", "classcom_1_1bluevia_1_1commons_1_1parser_1_1SerializeException.html", null ],
-      [ "com.telefonica.schemas.unica.rest.common.v1.ServerExceptionType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1common_1_1v1_1_1ServerExceptionType.html", null ],
-      [ "com.bluevia.payment.data.ServiceInfo", "classcom_1_1bluevia_1_1payment_1_1data_1_1ServiceInfo.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sgap.v1.SimpleAdRequestType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sgap_1_1v1_1_1SimpleAdRequestType.html", null ],
-      [ "com.bluevia.ad.data.simple.SimpleAdResponse", "classcom_1_1bluevia_1_1ad_1_1data_1_1simple_1_1SimpleAdResponse.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sgap.v1.SimpleAdResponseType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sgap_1_1v1_1_1SimpleAdResponseType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.common.v1.SimpleReferenceType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1common_1_1v1_1_1SimpleReferenceType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.common.v1.SimpleReferenceType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1common_1_1v1_1_1SimpleReferenceType.html", null ],
-      [ "com.bluevia.messagery.mt.sms.data.Sms", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1sms_1_1data_1_1Sms.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.SMSDeliveryStatusType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1SMSDeliveryStatusType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.SMSDeliveryStatusUpdateType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1SMSDeliveryStatusUpdateType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.SMSLogoType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1SMSLogoType.html", null ],
-      [ "com.bluevia.messagery.mo.sms.data.SmsMessage", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1sms_1_1data_1_1SmsMessage.html", null ],
-      [ "com.bluevia.messagery.mt.sms.data.SmsMessageReq", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1sms_1_1data_1_1SmsMessageReq.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.SMSMessageType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1SMSMessageType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.SMSNotificationType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1SMSNotificationType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.SMSRingToneType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1SMSRingToneType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.SMSTextType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1SMSTextType.html", null ],
-      [ "com.bluevia.commons.connector.http.SSL2wayForNonValidCertsSocketFactory", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1SSL2wayForNonValidCertsSocketFactory.html", null ],
-      [ "com.bluevia.commons.connector.http.SSLForNonValidCertsSocketFactory", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1SSLForNonValidCertsSocketFactory.html", null ],
-      [ "com.bluevia.commons.data.StringEntity", "classcom_1_1bluevia_1_1commons_1_1data_1_1StringEntity.html", null ],
-      [ "com.bluevia.commons.connector.http.multipart.StringPart", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1multipart_1_1StringPart.html", null ],
-      [ "com.telefonica.schemas.unica.rest.directory.v1.SubscribedServiceType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1directory_1_1v1_1_1SubscribedServiceType.html", null ],
-      [ "com.bluevia.directory.data.TerminalInfo", "classcom_1_1bluevia_1_1directory_1_1data_1_1TerminalInfo.html", null ],
-      [ "com.bluevia.ad.parser.url.UrlEncodedAdSerializer", "classcom_1_1bluevia_1_1ad_1_1parser_1_1url_1_1UrlEncodedAdSerializer.html", null ],
-      [ "com.bluevia.payment.parser.url.UrlEncodedPaymentReqTokenSerializer", "classcom_1_1bluevia_1_1payment_1_1parser_1_1url_1_1UrlEncodedPaymentReqTokenSerializer.html", null ],
-      [ "com.telefonica.schemas.unica.rest.directory.v1.UserAccessInfoType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1directory_1_1v1_1_1UserAccessInfoType.html", null ],
-      [ "com.bluevia.commons.data.UserId", "classcom_1_1bluevia_1_1commons_1_1data_1_1UserId.html", null ],
-      [ "com.telefonica.schemas.unica.rest.directory.v1.UserIdentitiesType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1directory_1_1v1_1_1UserIdentitiesType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.common.v1.UserIdType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1common_1_1v1_1_1UserIdType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.common.v1.UserIdType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1common_1_1v1_1_1UserIdType.html", null ],
-      [ "com.bluevia.directory.data.UserInfo", "classcom_1_1bluevia_1_1directory_1_1data_1_1UserInfo.html", null ],
-      [ "com.telefonica.schemas.unica.rest.directory.v1.UserInfoType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1directory_1_1v1_1_1UserInfoType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.directory.v1.UserPersonalInfoType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1directory_1_1v1_1_1UserPersonalInfoType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.directory.v1.UserProfileType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1directory_1_1v1_1_1UserProfileType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.directory.v1.UserTerminalInfoType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1directory_1_1v1_1_1UserTerminalInfoType.html", null ],
-      [ "com.bluevia.commons.Utils", "classcom_1_1bluevia_1_1commons_1_1Utils.html", null ],
-      [ "com.bluevia.commons.parser.xml.XmlConstants", "classcom_1_1bluevia_1_1commons_1_1parser_1_1xml_1_1XmlConstants.html", null ],
-      [ "com.bluevia.commons.parser.xml.XmlParser", "classcom_1_1bluevia_1_1commons_1_1parser_1_1xml_1_1XmlParser.html", null ],
-      [ "com.bluevia.commons.parser.xml.XmlSerializer", "classcom_1_1bluevia_1_1commons_1_1parser_1_1xml_1_1XmlSerializer.html", null ]
+      [ "AbstractMessage", "classcom_1_1bluevia_1_1android_1_1messagery_1_1data_1_1AbstractMessage.html", null ],
+      [ "AbstractReceivedMessage", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1data_1_1AbstractReceivedMessage.html", null ],
+      [ "AbstractXmlMessageSerializer", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1parser_1_1AbstractXmlMessageSerializer.html", null ],
+      [ "AbstractXmlSmsSerializer", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1sms_1_1parser_1_1xml_1_1AbstractXmlSmsSerializer.html", null ],
+      [ "AccessInfo", "classcom_1_1bluevia_1_1android_1_1directory_1_1data_1_1AccessInfo.html", null ],
+      [ "Ad", "classcom_1_1bluevia_1_1android_1_1ad_1_1data_1_1Ad.html", null ],
+      [ "AdditionalData", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1AdditionalData.html", null ],
+      [ "AdRequest", "classcom_1_1bluevia_1_1android_1_1ad_1_1data_1_1AdRequest.html", null ],
+      [ "AdResponse", "classcom_1_1bluevia_1_1android_1_1ad_1_1data_1_1AdResponse.html", null ],
+      [ "AdsAttribute", "classcom_1_1bluevia_1_1android_1_1ad_1_1data_1_1AdsAttribute.html", null ],
+      [ "Attachment", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1mms_1_1data_1_1Attachment.html", null ],
+      [ "MmsMessageInfo.AttachmentInfo", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1mms_1_1data_1_1MmsMessageInfo_1_1AttachmentInfo.html", null ],
+      [ "Base64", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1codec_1_1Base64.html", null ],
+      [ "Base64OutputStreamEncoder", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1Base64OutputStreamEncoder.html", null ],
+      [ "BinaryDecoder", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1codec_1_1BinaryDecoder.html", null ],
+      [ "BinaryEncoder", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1codec_1_1BinaryEncoder.html", null ],
+      [ "BlueviaException", "classcom_1_1bluevia_1_1android_1_1commons_1_1exception_1_1BlueviaException.html", null ],
+      [ "BlueviaPartBase", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1BlueviaPartBase.html", null ],
+      [ "BVAdvertising", "classcom_1_1bluevia_1_1android_1_1ad_1_1client_1_1BVAdvertising.html", null ],
+      [ "BVAdvertisingClient", "classcom_1_1bluevia_1_1android_1_1ad_1_1client_1_1BVAdvertisingClient.html", null ],
+      [ "BVAuthorizationHeaderSigningStrategy", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1oauth_1_1BVAuthorizationHeaderSigningStrategy.html", null ],
+      [ "BVBaseClient", "classcom_1_1bluevia_1_1android_1_1commons_1_1client_1_1BVBaseClient.html", null ],
+      [ "BVCommonsHttpOauthProvider", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1oauth_1_1BVCommonsHttpOauthProvider.html", null ],
+      [ "BVDirectory", "classcom_1_1bluevia_1_1android_1_1directory_1_1client_1_1BVDirectory.html", null ],
+      [ "BVDirectoryClient", "classcom_1_1bluevia_1_1android_1_1directory_1_1client_1_1BVDirectoryClient.html", null ],
+      [ "BVLocation", "classcom_1_1bluevia_1_1android_1_1location_1_1client_1_1BVLocation.html", null ],
+      [ "BVLocationClient", "classcom_1_1bluevia_1_1android_1_1location_1_1client_1_1BVLocationClient.html", null ],
+      [ "BVMoClient", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1client_1_1BVMoClient.html", null ],
+      [ "BVMoMms", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1mms_1_1client_1_1BVMoMms.html", null ],
+      [ "BVMoMmsClient", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1mms_1_1client_1_1BVMoMmsClient.html", null ],
+      [ "BVMoSms", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1sms_1_1client_1_1BVMoSms.html", null ],
+      [ "BVMoSmsClient", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1sms_1_1client_1_1BVMoSmsClient.html", null ],
+      [ "BVMtClient", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1client_1_1BVMtClient.html", null ],
+      [ "BVMtMms", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1mms_1_1client_1_1BVMtMms.html", null ],
+      [ "BVMtMmsClient", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1mms_1_1client_1_1BVMtMmsClient.html", null ],
+      [ "BVMtSms", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1sms_1_1client_1_1BVMtSms.html", null ],
+      [ "BVMtSmsClient", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1sms_1_1client_1_1BVMtSmsClient.html", null ],
+      [ "BVOauth", "classcom_1_1bluevia_1_1android_1_1oauth_1_1client_1_1BVOauth.html", null ],
+      [ "BVOauthClient", "classcom_1_1bluevia_1_1android_1_1oauth_1_1client_1_1BVOauthClient.html", null ],
+      [ "BVPayment", "classcom_1_1bluevia_1_1android_1_1payment_1_1client_1_1BVPayment.html", null ],
+      [ "BVRestXmlErrorParser", "classcom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1xml_1_1BVRestXmlErrorParser.html", null ],
+      [ "ByteArrayPartSource", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1ByteArrayPartSource.html", null ],
+      [ "ConnectorException", "classcom_1_1bluevia_1_1android_1_1commons_1_1exception_1_1ConnectorException.html", null ],
+      [ "CoordinatesType", "classcom_1_1bluevia_1_1android_1_1location_1_1data_1_1CoordinatesType.html", null ],
+      [ "CreativeElement", "classcom_1_1bluevia_1_1android_1_1ad_1_1data_1_1simple_1_1CreativeElement.html", null ],
+      [ "Decoder", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1codec_1_1Decoder.html", null ],
+      [ "DecoderException", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1codec_1_1DecoderException.html", null ],
+      [ "DefaultParser", "classcom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1DefaultParser.html", null ],
+      [ "DeliveryInfo", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1data_1_1DeliveryInfo.html", null ],
+      [ "DeliveryInfoList", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1data_1_1DeliveryInfoList.html", null ],
+      [ "DirectoryEntityParser", "interfacecom_1_1bluevia_1_1android_1_1directory_1_1parser_1_1DirectoryEntityParser.html", null ],
+      [ "Encoder", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1codec_1_1Encoder.html", null ],
+      [ "EncoderException", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1codec_1_1EncoderException.html", null ],
+      [ "Entity", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1Entity.html", null ],
+      [ "FilePart", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1FilePart.html", null ],
+      [ "FilePartSource", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1FilePartSource.html", null ],
+      [ "FilterUtils", "classcom_1_1bluevia_1_1android_1_1directory_1_1data_1_1FilterUtils.html", null ],
+      [ "FullCreativeElement", "classcom_1_1bluevia_1_1android_1_1ad_1_1data_1_1FullCreativeElement.html", null ],
+      [ "GenericResponse", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1GenericResponse.html", null ],
+      [ "GetPaymentStatusParams", "classcom_1_1bluevia_1_1android_1_1payment_1_1data_1_1GetPaymentStatusParams.html", null ],
+      [ "GsdpConstants", "classcom_1_1bluevia_1_1android_1_1commons_1_1GsdpConstants.html", null ],
+      [ "HttpConnector", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1HttpConnector.html", null ],
+      [ "HttpException", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1HttpException.html", null ],
+      [ "IAuth", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1IAuth.html", null ],
+      [ "IConnector", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1IConnector.html", null ],
+      [ "Interaction", "classcom_1_1bluevia_1_1android_1_1ad_1_1data_1_1Interaction.html", null ],
+      [ "IOAuth", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1oauth_1_1IOAuth.html", null ],
+      [ "IParser", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1IParser.html", null ],
+      [ "ISerializer", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1ISerializer.html", null ],
+      [ "LocationDataType", "classcom_1_1bluevia_1_1android_1_1location_1_1data_1_1LocationDataType.html", null ],
+      [ "LocationInfo", "classcom_1_1bluevia_1_1android_1_1location_1_1data_1_1simple_1_1LocationInfo.html", null ],
+      [ "LocationInfoType", "classcom_1_1bluevia_1_1android_1_1location_1_1data_1_1LocationInfoType.html", null ],
+      [ "MakePaymentParams", "classcom_1_1bluevia_1_1android_1_1payment_1_1data_1_1MakePaymentParams.html", null ],
+      [ "MethodCall", "classcom_1_1bluevia_1_1android_1_1commons_1_1data_1_1xmlrpc_1_1MethodCall.html", null ],
+      [ "MethodResponse", "classcom_1_1bluevia_1_1android_1_1commons_1_1data_1_1xmlrpc_1_1MethodResponse.html", null ],
+      [ "MimeContent", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1mms_1_1data_1_1MimeContent.html", null ],
+      [ "MmsMessage", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1mms_1_1data_1_1MmsMessage.html", null ],
+      [ "MmsMessageInfo", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1mms_1_1data_1_1MmsMessageInfo.html", null ],
+      [ "MmsMessageReq", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1mms_1_1data_1_1MmsMessageReq.html", null ],
+      [ "MultipartEntity", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1MultipartEntity.html", null ],
+      [ "MultipartMmsParser", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1mms_1_1parser_1_1MultipartMmsParser.html", null ],
+      [ "OauthHttpConnector", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1oauth_1_1OauthHttpConnector.html", null ],
+      [ "OAuthToken", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1oauth_1_1OAuthToken.html", null ],
+      [ "ParseException", "classcom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1ParseException.html", null ],
+      [ "Part", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1Part.html", null ],
+      [ "PartBase", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1PartBase.html", null ],
+      [ "PartContainer", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1PartContainer.html", null ],
+      [ "PartSource", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1PartSource.html", null ],
+      [ "PaymentInfo", "classcom_1_1bluevia_1_1android_1_1payment_1_1data_1_1PaymentInfo.html", null ],
+      [ "PaymentRequestTokenParams", "classcom_1_1bluevia_1_1android_1_1payment_1_1data_1_1PaymentRequestTokenParams.html", null ],
+      [ "PaymentResult", "classcom_1_1bluevia_1_1android_1_1payment_1_1data_1_1PaymentResult.html", null ],
+      [ "PaymentSerializer", "classcom_1_1bluevia_1_1android_1_1payment_1_1parser_1_1PaymentSerializer.html", null ],
+      [ "PaymentStatus", "classcom_1_1bluevia_1_1android_1_1payment_1_1data_1_1PaymentStatus.html", null ],
+      [ "PersonalInfo", "classcom_1_1bluevia_1_1android_1_1directory_1_1data_1_1PersonalInfo.html", null ],
+      [ "Profile", "classcom_1_1bluevia_1_1android_1_1directory_1_1data_1_1Profile.html", null ],
+      [ "R", "classcom_1_1bluevia_1_1android_1_1rest_1_1R.html", null ],
+      [ "ReceivedMessageList", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1data_1_1ReceivedMessageList.html", null ],
+      [ "RequestToken", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1oauth_1_1RequestToken.html", null ],
+      [ "Resource", "classcom_1_1bluevia_1_1android_1_1ad_1_1data_1_1Resource.html", null ],
+      [ "RpcError", "classcom_1_1bluevia_1_1android_1_1commons_1_1data_1_1xmlrpc_1_1RpcError.html", null ],
+      [ "RpcMethod", "classcom_1_1bluevia_1_1android_1_1commons_1_1data_1_1xmlrpc_1_1RpcMethod.html", null ],
+      [ "SerializeException", "classcom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1SerializeException.html", null ],
+      [ "ServiceErrorType", "classcom_1_1bluevia_1_1android_1_1location_1_1data_1_1ServiceErrorType.html", null ],
+      [ "ServiceInfo", "classcom_1_1bluevia_1_1android_1_1payment_1_1data_1_1ServiceInfo.html", null ],
+      [ "SimpleAdResponse", "classcom_1_1bluevia_1_1android_1_1ad_1_1data_1_1simple_1_1SimpleAdResponse.html", null ],
+      [ "Sms", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1sms_1_1data_1_1Sms.html", null ],
+      [ "SmsMessage", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1sms_1_1data_1_1SmsMessage.html", null ],
+      [ "SmsMessageReq", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1sms_1_1data_1_1SmsMessageReq.html", null ],
+      [ "SSLForNonValidCertsSocketFactory", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1SSLForNonValidCertsSocketFactory.html", null ],
+      [ "StringEntity", "classcom_1_1bluevia_1_1android_1_1commons_1_1data_1_1StringEntity.html", null ],
+      [ "StringPart", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1StringPart.html", null ],
+      [ "TerminalInfo", "classcom_1_1bluevia_1_1android_1_1directory_1_1data_1_1TerminalInfo.html", null ],
+      [ "UrlEncodedAdSerializer", "classcom_1_1bluevia_1_1android_1_1ad_1_1parser_1_1url_1_1UrlEncodedAdSerializer.html", null ],
+      [ "UrlEncodedPaymentReqTokenSerializer", "classcom_1_1bluevia_1_1android_1_1payment_1_1parser_1_1url_1_1UrlEncodedPaymentReqTokenSerializer.html", null ],
+      [ "UserId", "classcom_1_1bluevia_1_1android_1_1commons_1_1data_1_1UserId.html", null ],
+      [ "UserInfo", "classcom_1_1bluevia_1_1android_1_1directory_1_1data_1_1UserInfo.html", null ],
+      [ "Utils", "classcom_1_1bluevia_1_1android_1_1commons_1_1Utils.html", null ],
+      [ "XmlAdParser", "classcom_1_1bluevia_1_1android_1_1ad_1_1parser_1_1xml_1_1XmlAdParser.html", null ],
+      [ "XmlAdResponseParser", "classcom_1_1bluevia_1_1android_1_1ad_1_1parser_1_1xml_1_1XmlAdResponseParser.html", null ],
+      [ "XmlConstants", "classcom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1xml_1_1XmlConstants.html", null ],
+      [ "XmlConstants", "classcom_1_1bluevia_1_1android_1_1directory_1_1parser_1_1XmlConstants.html", null ],
+      [ "XmlDeliveryStatusParserHelper", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1parser_1_1XmlDeliveryStatusParserHelper.html", null ],
+      [ "XmlDirectoryAccessInfoParser", "classcom_1_1bluevia_1_1android_1_1directory_1_1parser_1_1XmlDirectoryAccessInfoParser.html", null ],
+      [ "XmlDirectoryParser", "classcom_1_1bluevia_1_1android_1_1directory_1_1parser_1_1XmlDirectoryParser.html", null ],
+      [ "XmlDirectoryPersonalInfoParser", "classcom_1_1bluevia_1_1android_1_1directory_1_1parser_1_1XmlDirectoryPersonalInfoParser.html", null ],
+      [ "XmlDirectoryProfileParser", "classcom_1_1bluevia_1_1android_1_1directory_1_1parser_1_1XmlDirectoryProfileParser.html", null ],
+      [ "XmlDirectoryTerminalInfoParser", "classcom_1_1bluevia_1_1android_1_1directory_1_1parser_1_1XmlDirectoryTerminalInfoParser.html", null ],
+      [ "XmlDirectoryUserInfoParser", "classcom_1_1bluevia_1_1android_1_1directory_1_1parser_1_1XmlDirectoryUserInfoParser.html", null ],
+      [ "XmlLocationParser", "classcom_1_1bluevia_1_1android_1_1location_1_1parser_1_1xml_1_1XmlLocationParser.html", null ],
+      [ "XmlMethodCallSerializer", "classcom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1xmlrpc_1_1XmlMethodCallSerializer.html", null ],
+      [ "XmlMethodResponseParser", "classcom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1xmlrpc_1_1XmlMethodResponseParser.html", null ],
+      [ "XmlMmsDeliveryStatusParser", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1mms_1_1parser_1_1XmlMmsDeliveryStatusParser.html", null ],
+      [ "XmlMmsMessageSerializer", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1mms_1_1parser_1_1XmlMmsMessageSerializer.html", null ],
+      [ "XmlMmsParser", "classcom_1_1bluevia_1_1android_1_1messagery_1_1commons_1_1parser_1_1XmlMmsParser.html", null ],
+      [ "XmlMmsSerializer", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1mms_1_1parser_1_1XmlMmsSerializer.html", null ],
+      [ "XmlParserSerializerUtils", "classcom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1xml_1_1XmlParserSerializerUtils.html", null ],
+      [ "XmlPaymentParser", "classcom_1_1bluevia_1_1android_1_1payment_1_1parser_1_1xml_1_1XmlPaymentParser.html", null ],
+      [ "XmlPaymentSerializer", "classcom_1_1bluevia_1_1android_1_1payment_1_1parser_1_1xml_1_1XmlPaymentSerializer.html", null ],
+      [ "XmlReceivedMessagesParser", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1parser_1_1XmlReceivedMessagesParser.html", null ],
+      [ "XmlReceivedMmsParser", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1mms_1_1parser_1_1XmlReceivedMmsParser.html", null ],
+      [ "XmlSmsDeliveryStatusParser", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1sms_1_1parser_1_1xml_1_1XmlSmsDeliveryStatusParser.html", null ],
+      [ "XmlSmsMessageSerializer", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1sms_1_1parser_1_1xml_1_1XmlSmsMessageSerializer.html", null ],
+      [ "XmlSmsParser", "classcom_1_1bluevia_1_1android_1_1messagery_1_1commons_1_1parser_1_1XmlSmsParser.html", null ],
+      [ "XmlSmsSerializer", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1sms_1_1parser_1_1xml_1_1XmlSmsSerializer.html", null ]
     ] ],
     [ "Class Index", "classes.html", null ],
     [ "Class Hierarchy", "hierarchy.html", [
-      [ "com.bluevia.commons.connector.http.AdditionalData", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1AdditionalData.html", null ],
-      [ "com.telefonica.schemas.unica.rest.common.v1.AddressType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1common_1_1v1_1_1AddressType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sgap.v1.AdType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sgap_1_1v1_1_1AdType.html", null ],
-      [ "com.bluevia.messagery.mt.mms.data.Attachment", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1mms_1_1data_1_1Attachment.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sgap.v1.AttributeType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sgap_1_1v1_1_1AttributeType.html", null ],
-      [ "com.bluevia.commons.connector.http.multipart.Base64OutputStreamEncoder", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1multipart_1_1Base64OutputStreamEncoder.html", null ],
-      [ "com.bluevia.commons.exception.BlueviaException", "classcom_1_1bluevia_1_1commons_1_1exception_1_1BlueviaException.html", [
-        [ "com.bluevia.commons.exception.ConnectorException", "classcom_1_1bluevia_1_1commons_1_1exception_1_1ConnectorException.html", [
-          [ "com.bluevia.commons.connector.http.HttpException", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1HttpException.html", null ]
+      [ "AdditionalData", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1AdditionalData.html", null ],
+      [ "Base64OutputStreamEncoder", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1Base64OutputStreamEncoder.html", null ],
+      [ "BlueviaException", "classcom_1_1bluevia_1_1android_1_1commons_1_1exception_1_1BlueviaException.html", [
+        [ "ConnectorException", "classcom_1_1bluevia_1_1android_1_1commons_1_1exception_1_1ConnectorException.html", [
+          [ "HttpException", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1HttpException.html", null ]
         ] ],
-        [ "com.bluevia.commons.parser.ParseException", "classcom_1_1bluevia_1_1commons_1_1parser_1_1ParseException.html", null ],
-        [ "com.bluevia.commons.parser.SerializeException", "classcom_1_1bluevia_1_1commons_1_1parser_1_1SerializeException.html", null ]
+        [ "ParseException", "classcom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1ParseException.html", null ],
+        [ "SerializeException", "classcom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1SerializeException.html", null ]
       ] ],
-      [ "com.bluevia.commons.connector.http.multipart.BlueviaPartBase", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1multipart_1_1BlueviaPartBase.html", [
-        [ "com.bluevia.commons.connector.http.multipart.FilePart", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1multipart_1_1FilePart.html", null ],
-        [ "com.bluevia.commons.connector.http.multipart.PartContainer", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1multipart_1_1PartContainer.html", null ],
-        [ "com.bluevia.commons.connector.http.multipart.StringPart", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1multipart_1_1StringPart.html", null ]
-      ] ],
-      [ "com.bluevia.commons.connector.http.oauth.BVAuthorizationHeaderSigningStrategy", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1oauth_1_1BVAuthorizationHeaderSigningStrategy.html", null ],
-      [ "com.bluevia.commons.client.BVBaseClient", "classcom_1_1bluevia_1_1commons_1_1client_1_1BVBaseClient.html", [
-        [ "com.bluevia.ad.client.BVAdvertisingClient", "classcom_1_1bluevia_1_1ad_1_1client_1_1BVAdvertisingClient.html", [
-          [ "com.bluevia.ad.client.BVAdvertising", "classcom_1_1bluevia_1_1ad_1_1client_1_1BVAdvertising.html", null ]
+      [ "BVAuthorizationHeaderSigningStrategy", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1oauth_1_1BVAuthorizationHeaderSigningStrategy.html", null ],
+      [ "BVBaseClient", "classcom_1_1bluevia_1_1android_1_1commons_1_1client_1_1BVBaseClient.html", [
+        [ "BVAdvertisingClient", "classcom_1_1bluevia_1_1android_1_1ad_1_1client_1_1BVAdvertisingClient.html", [
+          [ "BVAdvertising", "classcom_1_1bluevia_1_1android_1_1ad_1_1client_1_1BVAdvertising.html", null ]
         ] ],
-        [ "com.bluevia.directory.client.BVDirectoryClient", "classcom_1_1bluevia_1_1directory_1_1client_1_1BVDirectoryClient.html", [
-          [ "com.bluevia.directory.client.BVDirectory", "classcom_1_1bluevia_1_1directory_1_1client_1_1BVDirectory.html", null ]
+        [ "BVDirectoryClient", "classcom_1_1bluevia_1_1android_1_1directory_1_1client_1_1BVDirectoryClient.html", [
+          [ "BVDirectory", "classcom_1_1bluevia_1_1android_1_1directory_1_1client_1_1BVDirectory.html", null ]
         ] ],
-        [ "com.bluevia.location.client.BVLocationClient", "classcom_1_1bluevia_1_1location_1_1client_1_1BVLocationClient.html", [
-          [ "com.bluevia.location.client.BVLocation", "classcom_1_1bluevia_1_1location_1_1client_1_1BVLocation.html", null ]
+        [ "BVLocationClient", "classcom_1_1bluevia_1_1android_1_1location_1_1client_1_1BVLocationClient.html", [
+          [ "BVLocation", "classcom_1_1bluevia_1_1android_1_1location_1_1client_1_1BVLocation.html", null ]
         ] ],
-        [ "com.bluevia.messagery.mo.client.BVMoClient", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1client_1_1BVMoClient.html", [
-          [ "com.bluevia.messagery.mo.mms.client.BVMoMmsClient", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1mms_1_1client_1_1BVMoMmsClient.html", [
-            [ "com.bluevia.messagery.mo.mms.client.BVMoMms", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1mms_1_1client_1_1BVMoMms.html", null ]
+        [ "BVMoClient", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1client_1_1BVMoClient.html", [
+          [ "BVMoMmsClient", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1mms_1_1client_1_1BVMoMmsClient.html", [
+            [ "BVMoMms", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1mms_1_1client_1_1BVMoMms.html", null ]
           ] ],
-          [ "com.bluevia.messagery.mo.sms.client.BVMoSmsClient", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1sms_1_1client_1_1BVMoSmsClient.html", [
-            [ "com.bluevia.messagery.mo.sms.client.BVMoSms", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1sms_1_1client_1_1BVMoSms.html", null ]
+          [ "BVMoSmsClient", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1sms_1_1client_1_1BVMoSmsClient.html", [
+            [ "BVMoSms", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1sms_1_1client_1_1BVMoSms.html", null ]
           ] ]
         ] ],
-        [ "com.bluevia.messagery.mt.client.BVMtClient", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1client_1_1BVMtClient.html", [
-          [ "com.bluevia.messagery.mt.mms.client.BVMtMmsClient", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1mms_1_1client_1_1BVMtMmsClient.html", [
-            [ "com.bluevia.messagery.mt.mms.client.BVMtMms", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1mms_1_1client_1_1BVMtMms.html", null ]
+        [ "BVMtClient", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1client_1_1BVMtClient.html", [
+          [ "BVMtMmsClient", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1mms_1_1client_1_1BVMtMmsClient.html", [
+            [ "BVMtMms", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1mms_1_1client_1_1BVMtMms.html", null ]
           ] ],
-          [ "com.bluevia.messagery.mt.sms.client.BVMtSmsClient", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1sms_1_1client_1_1BVMtSmsClient.html", [
-            [ "com.bluevia.messagery.mt.sms.client.BVMtSms", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1sms_1_1client_1_1BVMtSms.html", null ]
+          [ "BVMtSmsClient", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1sms_1_1client_1_1BVMtSmsClient.html", [
+            [ "BVMtSms", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1sms_1_1client_1_1BVMtSms.html", null ]
           ] ]
         ] ],
-        [ "com.bluevia.oauth.client.BVOauthClient", "classcom_1_1bluevia_1_1oauth_1_1client_1_1BVOauthClient.html", [
-          [ "com.bluevia.oauth.client.BVOauth", "classcom_1_1bluevia_1_1oauth_1_1client_1_1BVOauth.html", null ],
-          [ "com.bluevia.payment.client.BVPayment", "classcom_1_1bluevia_1_1payment_1_1client_1_1BVPayment.html", null ]
+        [ "BVOauthClient", "classcom_1_1bluevia_1_1android_1_1oauth_1_1client_1_1BVOauthClient.html", [
+          [ "BVOauth", "classcom_1_1bluevia_1_1android_1_1oauth_1_1client_1_1BVOauth.html", null ],
+          [ "BVPayment", "classcom_1_1bluevia_1_1android_1_1payment_1_1client_1_1BVPayment.html", null ]
         ] ]
       ] ],
-      [ "com.bluevia.commons.connector.http.oauth.BVCommonsHttpOauthProvider", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1oauth_1_1BVCommonsHttpOauthProvider.html", null ],
-      [ "com.telefonica.schemas.unica.rest.common.v1.ClientExceptionType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1common_1_1v1_1_1ClientExceptionType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.CoordinatesType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1CoordinatesType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.location.v1.CoordinatesType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1location_1_1v1_1_1CoordinatesType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.CoordinatesType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1CoordinatesType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sgap.v1.CreativeElementType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sgap_1_1v1_1_1CreativeElementType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.DeliveryInformationType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1DeliveryInformationType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.DeliveryInformationType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1DeliveryInformationType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.DeliveryReceiptNotificationType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1DeliveryReceiptNotificationType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.DeliveryReceiptNotificationType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1DeliveryReceiptNotificationType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.DeliveryStatusUpdateType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1DeliveryStatusUpdateType.html", null ],
-      [ "com.bluevia.commons.Entity", "interfacecom_1_1bluevia_1_1commons_1_1Entity.html", [
-        [ "com.bluevia.ad.data.Ad", "classcom_1_1bluevia_1_1ad_1_1data_1_1Ad.html", null ],
-        [ "com.bluevia.ad.data.AdRequest", "classcom_1_1bluevia_1_1ad_1_1data_1_1AdRequest.html", null ],
-        [ "com.bluevia.ad.data.AdResponse", "classcom_1_1bluevia_1_1ad_1_1data_1_1AdResponse.html", null ],
-        [ "com.bluevia.ad.data.AdsAttribute", "classcom_1_1bluevia_1_1ad_1_1data_1_1AdsAttribute.html", null ],
-        [ "com.bluevia.ad.data.FullCreativeElement", "classcom_1_1bluevia_1_1ad_1_1data_1_1FullCreativeElement.html", null ],
-        [ "com.bluevia.ad.data.Interaction", "classcom_1_1bluevia_1_1ad_1_1data_1_1Interaction.html", null ],
-        [ "com.bluevia.ad.data.Resource", "classcom_1_1bluevia_1_1ad_1_1data_1_1Resource.html", null ],
-        [ "com.bluevia.ad.data.simple.CreativeElement", "classcom_1_1bluevia_1_1ad_1_1data_1_1simple_1_1CreativeElement.html", null ],
-        [ "com.bluevia.ad.data.simple.SimpleAdResponse", "classcom_1_1bluevia_1_1ad_1_1data_1_1simple_1_1SimpleAdResponse.html", null ],
-        [ "com.bluevia.commons.connector.http.oauth.OAuthToken", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1oauth_1_1OAuthToken.html", [
-          [ "com.bluevia.commons.connector.http.oauth.RequestToken", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1oauth_1_1RequestToken.html", null ]
-        ] ],
-        [ "com.bluevia.commons.data.JaxbEntity", "classcom_1_1bluevia_1_1commons_1_1data_1_1JaxbEntity.html", null ],
-        [ "com.bluevia.commons.data.StringEntity", "classcom_1_1bluevia_1_1commons_1_1data_1_1StringEntity.html", null ],
-        [ "com.bluevia.commons.data.UserId", "classcom_1_1bluevia_1_1commons_1_1data_1_1UserId.html", null ],
-        [ "com.bluevia.directory.data.AccessInfo", "classcom_1_1bluevia_1_1directory_1_1data_1_1AccessInfo.html", null ],
-        [ "com.bluevia.directory.data.PersonalInfo", "classcom_1_1bluevia_1_1directory_1_1data_1_1PersonalInfo.html", null ],
-        [ "com.bluevia.directory.data.Profile", "classcom_1_1bluevia_1_1directory_1_1data_1_1Profile.html", null ],
-        [ "com.bluevia.directory.data.TerminalInfo", "classcom_1_1bluevia_1_1directory_1_1data_1_1TerminalInfo.html", null ],
-        [ "com.bluevia.directory.data.UserInfo", "classcom_1_1bluevia_1_1directory_1_1data_1_1UserInfo.html", null ],
-        [ "com.bluevia.location.data.LocationInfo", "classcom_1_1bluevia_1_1location_1_1data_1_1LocationInfo.html", null ],
-        [ "com.bluevia.messagery.data.AbstractMessage", "classcom_1_1bluevia_1_1messagery_1_1data_1_1AbstractMessage.html", [
-          [ "com.bluevia.messagery.mt.mms.data.MmsMessageReq", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1mms_1_1data_1_1MmsMessageReq.html", null ],
-          [ "com.bluevia.messagery.mt.sms.data.Sms", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1sms_1_1data_1_1Sms.html", [
-            [ "com.bluevia.messagery.mt.sms.data.SmsMessageReq", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1sms_1_1data_1_1SmsMessageReq.html", null ]
-          ] ]
-        ] ],
-        [ "com.bluevia.messagery.mo.data.AbstractReceivedMessage", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1data_1_1AbstractReceivedMessage.html", [
-          [ "com.bluevia.messagery.mo.mms.data.MmsMessageInfo", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1mms_1_1data_1_1MmsMessageInfo.html", null ],
-          [ "com.bluevia.messagery.mo.sms.data.SmsMessage", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1sms_1_1data_1_1SmsMessage.html", null ]
-        ] ],
-        [ "com.bluevia.messagery.mo.data.ReceivedMessageList", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1data_1_1ReceivedMessageList.html", null ],
-        [ "com.bluevia.messagery.mo.mms.data.MimeContent", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1mms_1_1data_1_1MimeContent.html", null ],
-        [ "com.bluevia.messagery.mo.mms.data.MmsMessage", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1mms_1_1data_1_1MmsMessage.html", null ],
-        [ "com.bluevia.messagery.mo.mms.data.MmsMessageInfo.AttachmentInfo", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1mms_1_1data_1_1MmsMessageInfo_1_1AttachmentInfo.html", null ],
-        [ "com.bluevia.messagery.mt.data.DeliveryInfo", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1data_1_1DeliveryInfo.html", null ],
-        [ "com.bluevia.messagery.mt.data.DeliveryInfoList", "classcom_1_1bluevia_1_1messagery_1_1mt_1_1data_1_1DeliveryInfoList.html", null ],
-        [ "com.bluevia.payment.data.PaymentInfo", "classcom_1_1bluevia_1_1payment_1_1data_1_1PaymentInfo.html", null ],
-        [ "com.bluevia.payment.data.PaymentRequestTokenParams", "classcom_1_1bluevia_1_1payment_1_1data_1_1PaymentRequestTokenParams.html", null ],
-        [ "com.bluevia.payment.data.PaymentStatus", "classcom_1_1bluevia_1_1payment_1_1data_1_1PaymentStatus.html", [
-          [ "com.bluevia.payment.data.PaymentResult", "classcom_1_1bluevia_1_1payment_1_1data_1_1PaymentResult.html", null ]
-        ] ],
-        [ "com.bluevia.payment.data.ServiceInfo", "classcom_1_1bluevia_1_1payment_1_1data_1_1ServiceInfo.html", null ]
-      ] ],
-      [ "com.telefonica.schemas.unica.rpc.definition.v1.ErrorType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1definition_1_1v1_1_1ErrorType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.common.v1.ExtensionType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1common_1_1v1_1_1ExtensionType.html", null ],
-      [ "com.bluevia.directory.data.FilterConstants", "classcom_1_1bluevia_1_1directory_1_1data_1_1FilterConstants.html", null ],
-      [ "com.bluevia.directory.data.FilterUtils", "classcom_1_1bluevia_1_1directory_1_1data_1_1FilterUtils.html", null ],
-      [ "com.bluevia.commons.connector.GenericResponse", "classcom_1_1bluevia_1_1commons_1_1connector_1_1GenericResponse.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.payment.v1.GetPaymentStatusParamsType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1payment_1_1v1_1_1GetPaymentStatusParamsType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.payment.v1.GetPaymentStatusResultType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1payment_1_1v1_1_1GetPaymentStatusResultType.html", null ],
-      [ "com.bluevia.commons.GsdpConstants", "classcom_1_1bluevia_1_1commons_1_1GsdpConstants.html", null ],
-      [ "com.bluevia.commons.connector.IAuth", "interfacecom_1_1bluevia_1_1commons_1_1connector_1_1IAuth.html", [
-        [ "com.bluevia.commons.connector.http.HttpConnector", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1HttpConnector.html", [
-          [ "com.bluevia.commons.connector.http.oauth.OauthHttpConnector", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1oauth_1_1OauthHttpConnector.html", null ]
-        ] ],
-        [ "com.bluevia.commons.connector.http.oauth.IOAuth", "interfacecom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1oauth_1_1IOAuth.html", [
-          [ "com.bluevia.commons.connector.http.oauth.OauthHttpConnector", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1oauth_1_1OauthHttpConnector.html", null ]
+      [ "BVCommonsHttpOauthProvider", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1oauth_1_1BVCommonsHttpOauthProvider.html", null ],
+      [ "Decoder", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1codec_1_1Decoder.html", [
+        [ "BinaryDecoder", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1codec_1_1BinaryDecoder.html", [
+          [ "Base64", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1codec_1_1Base64.html", null ]
         ] ]
       ] ],
-      [ "com.bluevia.commons.connector.IConnector", "interfacecom_1_1bluevia_1_1commons_1_1connector_1_1IConnector.html", [
-        [ "com.bluevia.commons.connector.http.HttpConnector", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1HttpConnector.html", null ]
+      [ "DecoderException", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1codec_1_1DecoderException.html", null ],
+      [ "DirectoryEntityParser", "interfacecom_1_1bluevia_1_1android_1_1directory_1_1parser_1_1DirectoryEntityParser.html", [
+        [ "XmlDirectoryAccessInfoParser", "classcom_1_1bluevia_1_1android_1_1directory_1_1parser_1_1XmlDirectoryAccessInfoParser.html", null ],
+        [ "XmlDirectoryPersonalInfoParser", "classcom_1_1bluevia_1_1android_1_1directory_1_1parser_1_1XmlDirectoryPersonalInfoParser.html", null ],
+        [ "XmlDirectoryProfileParser", "classcom_1_1bluevia_1_1android_1_1directory_1_1parser_1_1XmlDirectoryProfileParser.html", null ],
+        [ "XmlDirectoryTerminalInfoParser", "classcom_1_1bluevia_1_1android_1_1directory_1_1parser_1_1XmlDirectoryTerminalInfoParser.html", null ],
+        [ "XmlDirectoryUserInfoParser", "classcom_1_1bluevia_1_1android_1_1directory_1_1parser_1_1XmlDirectoryUserInfoParser.html", null ]
       ] ],
-      [ "com.telefonica.schemas.unica.rest.sgap.v1.InteractionType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sgap_1_1v1_1_1InteractionType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.common.v1.IpAddressType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1common_1_1v1_1_1IpAddressType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.common.v1.IpAddressType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1common_1_1v1_1_1IpAddressType.html", null ],
-      [ "com.bluevia.commons.parser.IParser", "interfacecom_1_1bluevia_1_1commons_1_1parser_1_1IParser.html", [
-        [ "com.bluevia.commons.parser.xml.XmlParser", "classcom_1_1bluevia_1_1commons_1_1parser_1_1xml_1_1XmlParser.html", null ]
+      [ "Encoder", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1codec_1_1Encoder.html", [
+        [ "BinaryEncoder", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1codec_1_1BinaryEncoder.html", [
+          [ "Base64", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1codec_1_1Base64.html", null ]
+        ] ]
       ] ],
-      [ "com.bluevia.commons.parser.ISerializer", "interfacecom_1_1bluevia_1_1commons_1_1parser_1_1ISerializer.html", [
-        [ "com.bluevia.ad.parser.url.UrlEncodedAdSerializer", "classcom_1_1bluevia_1_1ad_1_1parser_1_1url_1_1UrlEncodedAdSerializer.html", null ],
-        [ "com.bluevia.commons.parser.xml.XmlSerializer", "classcom_1_1bluevia_1_1commons_1_1parser_1_1xml_1_1XmlSerializer.html", null ],
-        [ "com.bluevia.payment.parser.PaymentSerializer", "classcom_1_1bluevia_1_1payment_1_1parser_1_1PaymentSerializer.html", null ],
-        [ "com.bluevia.payment.parser.url.UrlEncodedPaymentReqTokenSerializer", "classcom_1_1bluevia_1_1payment_1_1parser_1_1url_1_1UrlEncodedPaymentReqTokenSerializer.html", null ]
+      [ "EncoderException", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1codec_1_1EncoderException.html", null ],
+      [ "Entity", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1Entity.html", [
+        [ "Ad", "classcom_1_1bluevia_1_1android_1_1ad_1_1data_1_1Ad.html", null ],
+        [ "AdRequest", "classcom_1_1bluevia_1_1android_1_1ad_1_1data_1_1AdRequest.html", null ],
+        [ "AdResponse", "classcom_1_1bluevia_1_1android_1_1ad_1_1data_1_1AdResponse.html", null ],
+        [ "AdsAttribute", "classcom_1_1bluevia_1_1android_1_1ad_1_1data_1_1AdsAttribute.html", null ],
+        [ "FullCreativeElement", "classcom_1_1bluevia_1_1android_1_1ad_1_1data_1_1FullCreativeElement.html", null ],
+        [ "Interaction", "classcom_1_1bluevia_1_1android_1_1ad_1_1data_1_1Interaction.html", null ],
+        [ "Resource", "classcom_1_1bluevia_1_1android_1_1ad_1_1data_1_1Resource.html", null ],
+        [ "CreativeElement", "classcom_1_1bluevia_1_1android_1_1ad_1_1data_1_1simple_1_1CreativeElement.html", null ],
+        [ "SimpleAdResponse", "classcom_1_1bluevia_1_1android_1_1ad_1_1data_1_1simple_1_1SimpleAdResponse.html", null ],
+        [ "OAuthToken", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1oauth_1_1OAuthToken.html", [
+          [ "RequestToken", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1oauth_1_1RequestToken.html", null ]
+        ] ],
+        [ "StringEntity", "classcom_1_1bluevia_1_1android_1_1commons_1_1data_1_1StringEntity.html", null ],
+        [ "UserId", "classcom_1_1bluevia_1_1android_1_1commons_1_1data_1_1UserId.html", null ],
+        [ "RpcError", "classcom_1_1bluevia_1_1android_1_1commons_1_1data_1_1xmlrpc_1_1RpcError.html", null ],
+        [ "RpcMethod", "classcom_1_1bluevia_1_1android_1_1commons_1_1data_1_1xmlrpc_1_1RpcMethod.html", [
+          [ "MethodCall", "classcom_1_1bluevia_1_1android_1_1commons_1_1data_1_1xmlrpc_1_1MethodCall.html", null ],
+          [ "MethodResponse", "classcom_1_1bluevia_1_1android_1_1commons_1_1data_1_1xmlrpc_1_1MethodResponse.html", null ]
+        ] ],
+        [ "AccessInfo", "classcom_1_1bluevia_1_1android_1_1directory_1_1data_1_1AccessInfo.html", null ],
+        [ "PersonalInfo", "classcom_1_1bluevia_1_1android_1_1directory_1_1data_1_1PersonalInfo.html", null ],
+        [ "Profile", "classcom_1_1bluevia_1_1android_1_1directory_1_1data_1_1Profile.html", null ],
+        [ "TerminalInfo", "classcom_1_1bluevia_1_1android_1_1directory_1_1data_1_1TerminalInfo.html", null ],
+        [ "UserInfo", "classcom_1_1bluevia_1_1android_1_1directory_1_1data_1_1UserInfo.html", null ],
+        [ "CoordinatesType", "classcom_1_1bluevia_1_1android_1_1location_1_1data_1_1CoordinatesType.html", null ],
+        [ "LocationDataType", "classcom_1_1bluevia_1_1android_1_1location_1_1data_1_1LocationDataType.html", null ],
+        [ "LocationInfoType", "classcom_1_1bluevia_1_1android_1_1location_1_1data_1_1LocationInfoType.html", null ],
+        [ "ServiceErrorType", "classcom_1_1bluevia_1_1android_1_1location_1_1data_1_1ServiceErrorType.html", null ],
+        [ "LocationInfo", "classcom_1_1bluevia_1_1android_1_1location_1_1data_1_1simple_1_1LocationInfo.html", null ],
+        [ "AbstractMessage", "classcom_1_1bluevia_1_1android_1_1messagery_1_1data_1_1AbstractMessage.html", [
+          [ "MmsMessageReq", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1mms_1_1data_1_1MmsMessageReq.html", null ],
+          [ "Sms", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1sms_1_1data_1_1Sms.html", [
+            [ "SmsMessageReq", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1sms_1_1data_1_1SmsMessageReq.html", null ]
+          ] ]
+        ] ],
+        [ "AbstractReceivedMessage", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1data_1_1AbstractReceivedMessage.html", [
+          [ "MmsMessageInfo", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1mms_1_1data_1_1MmsMessageInfo.html", null ],
+          [ "SmsMessage", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1sms_1_1data_1_1SmsMessage.html", null ]
+        ] ],
+        [ "ReceivedMessageList", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1data_1_1ReceivedMessageList.html", null ],
+        [ "MimeContent", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1mms_1_1data_1_1MimeContent.html", null ],
+        [ "MmsMessage", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1mms_1_1data_1_1MmsMessage.html", null ],
+        [ "MmsMessageInfo.AttachmentInfo", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1mms_1_1data_1_1MmsMessageInfo_1_1AttachmentInfo.html", null ],
+        [ "DeliveryInfo", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1data_1_1DeliveryInfo.html", null ],
+        [ "DeliveryInfoList", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1data_1_1DeliveryInfoList.html", null ],
+        [ "Attachment", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1mms_1_1data_1_1Attachment.html", null ],
+        [ "GetPaymentStatusParams", "classcom_1_1bluevia_1_1android_1_1payment_1_1data_1_1GetPaymentStatusParams.html", null ],
+        [ "MakePaymentParams", "classcom_1_1bluevia_1_1android_1_1payment_1_1data_1_1MakePaymentParams.html", null ],
+        [ "PaymentInfo", "classcom_1_1bluevia_1_1android_1_1payment_1_1data_1_1PaymentInfo.html", null ],
+        [ "PaymentRequestTokenParams", "classcom_1_1bluevia_1_1android_1_1payment_1_1data_1_1PaymentRequestTokenParams.html", null ],
+        [ "PaymentStatus", "classcom_1_1bluevia_1_1android_1_1payment_1_1data_1_1PaymentStatus.html", [
+          [ "PaymentResult", "classcom_1_1bluevia_1_1android_1_1payment_1_1data_1_1PaymentResult.html", null ]
+        ] ],
+        [ "ServiceInfo", "classcom_1_1bluevia_1_1android_1_1payment_1_1data_1_1ServiceInfo.html", null ]
       ] ],
-      [ "com.telefonica.schemas.unica.rest.location.v1.LocationDataType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1location_1_1v1_1_1LocationDataType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.LocationInfoType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1LocationInfoType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.location.v1.LocationInfoType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1location_1_1v1_1_1LocationInfoType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.LocationInfoType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1LocationInfoType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.MessageDeliveryStatusType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1MessageDeliveryStatusType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.MessageNotificationType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1MessageNotificationType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.MessageReferenceType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1MessageReferenceType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.MessageType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1MessageType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.MessageURIType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1MessageURIType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.definition.v1.MethodCallType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1definition_1_1v1_1_1MethodCallType.html", [
-        [ "com.telefonica.schemas.unica.rpc.payment.v1.MethodCallType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1payment_1_1v1_1_1MethodCallType.html", null ]
+      [ "FilterUtils", "classcom_1_1bluevia_1_1android_1_1directory_1_1data_1_1FilterUtils.html", null ],
+      [ "GenericResponse", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1GenericResponse.html", null ],
+      [ "GsdpConstants", "classcom_1_1bluevia_1_1android_1_1commons_1_1GsdpConstants.html", null ],
+      [ "IAuth", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1IAuth.html", [
+        [ "HttpConnector", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1HttpConnector.html", [
+          [ "OauthHttpConnector", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1oauth_1_1OauthHttpConnector.html", null ]
+        ] ],
+        [ "IOAuth", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1oauth_1_1IOAuth.html", [
+          [ "OauthHttpConnector", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1oauth_1_1OauthHttpConnector.html", null ]
+        ] ]
       ] ],
-      [ "com.telefonica.schemas.unica.rpc.definition.v1.MethodResponseType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1definition_1_1v1_1_1MethodResponseType.html", [
-        [ "com.telefonica.schemas.unica.rpc.payment.v1.MethodResponseType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1payment_1_1v1_1_1MethodResponseType.html", null ]
+      [ "IConnector", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1IConnector.html", [
+        [ "HttpConnector", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1HttpConnector.html", null ]
       ] ],
-      [ "com.bluevia.commons.connector.http.multipart.MultipartEntity", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1multipart_1_1MultipartEntity.html", null ],
-      [ "com.bluevia.messagery.mo.mms.parser.MultipartMmsParser", "classcom_1_1bluevia_1_1messagery_1_1mo_1_1mms_1_1parser_1_1MultipartMmsParser.html", null ],
-      [ "com.telefonica.schemas.unica.rest.directory.v1.NameType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1directory_1_1v1_1_1NameType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.payment.v1.NotifyPaymentFinalStatusParamsType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1payment_1_1v1_1_1NotifyPaymentFinalStatusParamsType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.ObjectFactory", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1ObjectFactory.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sgap.v1.ObjectFactory", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sgap_1_1v1_1_1ObjectFactory.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.definition.v1.ObjectFactory", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1definition_1_1v1_1_1ObjectFactory.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.ObjectFactory", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1ObjectFactory.html", null ],
-      [ "com.telefonica.schemas.unica.rest.common.v1.ObjectFactory", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1common_1_1v1_1_1ObjectFactory.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.common.v1.ObjectFactory", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1common_1_1v1_1_1ObjectFactory.html", null ],
-      [ "com.telefonica.schemas.unica.rest.location.v1.ObjectFactory", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1location_1_1v1_1_1ObjectFactory.html", null ],
-      [ "com.telefonica.schemas.unica.rest.directory.v1.ObjectFactory", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1directory_1_1v1_1_1ObjectFactory.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.payment.v1.ObjectFactory", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1payment_1_1v1_1_1ObjectFactory.html", null ],
-      [ "com.telefonica.schemas.unica.rest.common.v1.OtherIdType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1common_1_1v1_1_1OtherIdType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.common.v1.OtherIdType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1common_1_1v1_1_1OtherIdType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.payment.v1.PaymentInfoType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1payment_1_1v1_1_1PaymentInfoType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.payment.v1.PaymentParamsType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1payment_1_1v1_1_1PaymentParamsType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.payment.v1.PaymentResultType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1payment_1_1v1_1_1PaymentResultType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.ReceivedMessageAsyncType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1ReceivedMessageAsyncType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.mms.v1.ReceivedMessagesType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1mms_1_1v1_1_1ReceivedMessagesType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.ReceivedSMSAsyncType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1ReceivedSMSAsyncType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.ReceivedSMSType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1ReceivedSMSType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.payment.v1.RefundParamsType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1payment_1_1v1_1_1RefundParamsType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sgap.v1.ResourceType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sgap_1_1v1_1_1ResourceType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.common.v1.ServerExceptionType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1common_1_1v1_1_1ServerExceptionType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sgap.v1.SimpleAdRequestType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sgap_1_1v1_1_1SimpleAdRequestType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sgap.v1.SimpleAdResponseType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sgap_1_1v1_1_1SimpleAdResponseType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.common.v1.SimpleReferenceType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1common_1_1v1_1_1SimpleReferenceType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.common.v1.SimpleReferenceType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1common_1_1v1_1_1SimpleReferenceType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.SMSDeliveryStatusType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1SMSDeliveryStatusType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.SMSDeliveryStatusUpdateType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1SMSDeliveryStatusUpdateType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.SMSLogoType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1SMSLogoType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.SMSMessageType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1SMSMessageType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.SMSNotificationType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1SMSNotificationType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.SMSRingToneType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1SMSRingToneType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.sms.v1.SMSTextType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1sms_1_1v1_1_1SMSTextType.html", null ],
-      [ "com.bluevia.commons.connector.http.SSL2wayForNonValidCertsSocketFactory", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1SSL2wayForNonValidCertsSocketFactory.html", null ],
-      [ "com.bluevia.commons.connector.http.SSLForNonValidCertsSocketFactory", "classcom_1_1bluevia_1_1commons_1_1connector_1_1http_1_1SSLForNonValidCertsSocketFactory.html", null ],
-      [ "com.telefonica.schemas.unica.rest.directory.v1.SubscribedServiceType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1directory_1_1v1_1_1SubscribedServiceType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.directory.v1.UserAccessInfoType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1directory_1_1v1_1_1UserAccessInfoType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.directory.v1.UserIdentitiesType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1directory_1_1v1_1_1UserIdentitiesType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.common.v1.UserIdType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1common_1_1v1_1_1UserIdType.html", null ],
-      [ "com.telefonica.schemas.unica.rpc.common.v1.UserIdType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rpc_1_1common_1_1v1_1_1UserIdType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.directory.v1.UserInfoType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1directory_1_1v1_1_1UserInfoType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.directory.v1.UserPersonalInfoType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1directory_1_1v1_1_1UserPersonalInfoType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.directory.v1.UserProfileType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1directory_1_1v1_1_1UserProfileType.html", null ],
-      [ "com.telefonica.schemas.unica.rest.directory.v1.UserTerminalInfoType", "classcom_1_1telefonica_1_1schemas_1_1unica_1_1rest_1_1directory_1_1v1_1_1UserTerminalInfoType.html", null ],
-      [ "com.bluevia.commons.Utils", "classcom_1_1bluevia_1_1commons_1_1Utils.html", null ],
-      [ "com.bluevia.commons.parser.xml.XmlConstants", "classcom_1_1bluevia_1_1commons_1_1parser_1_1xml_1_1XmlConstants.html", null ]
+      [ "IParser", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1IParser.html", [
+        [ "XmlAdParser", "classcom_1_1bluevia_1_1android_1_1ad_1_1parser_1_1xml_1_1XmlAdParser.html", null ],
+        [ "XmlAdResponseParser", "classcom_1_1bluevia_1_1android_1_1ad_1_1parser_1_1xml_1_1XmlAdResponseParser.html", null ],
+        [ "DefaultParser", "classcom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1DefaultParser.html", null ],
+        [ "BVRestXmlErrorParser", "classcom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1xml_1_1BVRestXmlErrorParser.html", null ],
+        [ "XmlMethodResponseParser", "classcom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1xmlrpc_1_1XmlMethodResponseParser.html", [
+          [ "XmlPaymentParser", "classcom_1_1bluevia_1_1android_1_1payment_1_1parser_1_1xml_1_1XmlPaymentParser.html", null ]
+        ] ],
+        [ "XmlDirectoryParser", "classcom_1_1bluevia_1_1android_1_1directory_1_1parser_1_1XmlDirectoryParser.html", null ],
+        [ "XmlLocationParser", "classcom_1_1bluevia_1_1android_1_1location_1_1parser_1_1xml_1_1XmlLocationParser.html", null ],
+        [ "XmlMmsParser", "classcom_1_1bluevia_1_1android_1_1messagery_1_1commons_1_1parser_1_1XmlMmsParser.html", null ],
+        [ "XmlSmsParser", "classcom_1_1bluevia_1_1android_1_1messagery_1_1commons_1_1parser_1_1XmlSmsParser.html", null ]
+      ] ],
+      [ "ISerializer", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1ISerializer.html", [
+        [ "UrlEncodedAdSerializer", "classcom_1_1bluevia_1_1android_1_1ad_1_1parser_1_1url_1_1UrlEncodedAdSerializer.html", null ],
+        [ "XmlMethodCallSerializer", "classcom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1xmlrpc_1_1XmlMethodCallSerializer.html", [
+          [ "XmlPaymentSerializer", "classcom_1_1bluevia_1_1android_1_1payment_1_1parser_1_1xml_1_1XmlPaymentSerializer.html", null ]
+        ] ],
+        [ "XmlMmsMessageSerializer", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1mms_1_1parser_1_1XmlMmsMessageSerializer.html", null ],
+        [ "XmlMmsSerializer", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1mms_1_1parser_1_1XmlMmsSerializer.html", null ],
+        [ "AbstractXmlMessageSerializer", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1parser_1_1AbstractXmlMessageSerializer.html", [
+          [ "XmlMmsMessageSerializer", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1mms_1_1parser_1_1XmlMmsMessageSerializer.html", null ],
+          [ "AbstractXmlSmsSerializer", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1sms_1_1parser_1_1xml_1_1AbstractXmlSmsSerializer.html", [
+            [ "XmlSmsMessageSerializer", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1sms_1_1parser_1_1xml_1_1XmlSmsMessageSerializer.html", null ]
+          ] ]
+        ] ],
+        [ "AbstractXmlSmsSerializer", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1sms_1_1parser_1_1xml_1_1AbstractXmlSmsSerializer.html", null ],
+        [ "XmlSmsMessageSerializer", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1sms_1_1parser_1_1xml_1_1XmlSmsMessageSerializer.html", null ],
+        [ "XmlSmsSerializer", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1sms_1_1parser_1_1xml_1_1XmlSmsSerializer.html", null ],
+        [ "PaymentSerializer", "classcom_1_1bluevia_1_1android_1_1payment_1_1parser_1_1PaymentSerializer.html", null ],
+        [ "UrlEncodedPaymentReqTokenSerializer", "classcom_1_1bluevia_1_1android_1_1payment_1_1parser_1_1url_1_1UrlEncodedPaymentReqTokenSerializer.html", null ]
+      ] ],
+      [ "MultipartEntity", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1MultipartEntity.html", null ],
+      [ "MultipartMmsParser", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1mms_1_1parser_1_1MultipartMmsParser.html", null ],
+      [ "Part", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1Part.html", [
+        [ "PartBase", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1PartBase.html", [
+          [ "BlueviaPartBase", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1BlueviaPartBase.html", [
+            [ "FilePart", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1FilePart.html", null ],
+            [ "PartContainer", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1PartContainer.html", null ],
+            [ "StringPart", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1StringPart.html", null ]
+          ] ]
+        ] ]
+      ] ],
+      [ "PartSource", "interfacecom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1PartSource.html", [
+        [ "ByteArrayPartSource", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1ByteArrayPartSource.html", null ],
+        [ "FilePartSource", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1multipart_1_1FilePartSource.html", null ]
+      ] ],
+      [ "R", "classcom_1_1bluevia_1_1android_1_1rest_1_1R.html", null ],
+      [ "SSLForNonValidCertsSocketFactory", "classcom_1_1bluevia_1_1android_1_1commons_1_1connector_1_1http_1_1SSLForNonValidCertsSocketFactory.html", null ],
+      [ "Utils", "classcom_1_1bluevia_1_1android_1_1commons_1_1Utils.html", null ],
+      [ "XmlConstants", "classcom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1xml_1_1XmlConstants.html", null ],
+      [ "XmlConstants", "classcom_1_1bluevia_1_1android_1_1directory_1_1parser_1_1XmlConstants.html", null ],
+      [ "XmlDeliveryStatusParserHelper", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1parser_1_1XmlDeliveryStatusParserHelper.html", null ],
+      [ "XmlMmsDeliveryStatusParser", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1mms_1_1parser_1_1XmlMmsDeliveryStatusParser.html", null ],
+      [ "XmlParserSerializerUtils", "classcom_1_1bluevia_1_1android_1_1commons_1_1parser_1_1xml_1_1XmlParserSerializerUtils.html", null ],
+      [ "XmlReceivedMessagesParser", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1parser_1_1XmlReceivedMessagesParser.html", [
+        [ "XmlReceivedMmsParser", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1mms_1_1parser_1_1XmlReceivedMmsParser.html", null ]
+      ] ],
+      [ "XmlSmsDeliveryStatusParser", "classcom_1_1bluevia_1_1android_1_1messagery_1_1mt_1_1sms_1_1parser_1_1xml_1_1XmlSmsDeliveryStatusParser.html", null ]
     ] ],
     [ "Class Members", "functions.html", null ]
   ] ]

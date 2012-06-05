@@ -1,0 +1,21 @@
+digraph G
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans.ttf",fontsize="10",labelfontname="FreeSans.ttf",labelfontsize="10"];
+  node [fontname="FreeSans.ttf",fontsize="10",shape=record];
+  Node1 [label="UserInfo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node2 [label="Entity",height=0.2,width=0.4,color="black",URL="$interfacecom_1_1bluevia_1_1android_1_1commons_1_1_entity.html"];
+  Node3 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mProfile",fontname="FreeSans.ttf"];
+  Node3 [label="Profile",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1directory_1_1data_1_1_profile.html"];
+  Node2 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node4 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mAccessInfo",fontname="FreeSans.ttf"];
+  Node4 [label="AccessInfo",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1directory_1_1data_1_1_access_info.html"];
+  Node2 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node5 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mPersonalInfo",fontname="FreeSans.ttf"];
+  Node5 [label="PersonalInfo",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1directory_1_1data_1_1_personal_info.html"];
+  Node2 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node6 -> Node1 [dir=back,color="darkorchid3",fontsize="10",style="dashed",label="mTerminalInfo",fontname="FreeSans.ttf"];
+  Node6 [label="TerminalInfo",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1directory_1_1data_1_1_terminal_info.html"];
+  Node2 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+}

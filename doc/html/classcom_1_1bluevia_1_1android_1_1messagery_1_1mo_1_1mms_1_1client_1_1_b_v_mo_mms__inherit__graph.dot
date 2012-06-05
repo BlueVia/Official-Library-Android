@@ -1,0 +1,13 @@
+digraph G
+{
+  bgcolor="transparent";
+  edge [fontname="FreeSans.ttf",fontsize="10",labelfontname="FreeSans.ttf",labelfontsize="10"];
+  node [fontname="FreeSans.ttf",fontsize="10",shape=record];
+  Node1 [label="BVMoMms",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node2 [label="BVMoMmsClient",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1mms_1_1client_1_1_b_v_mo_mms_client.html"];
+  Node3 -> Node2 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node3 [label="BVMoClient",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1messagery_1_1mo_1_1client_1_1_b_v_mo_client.html"];
+  Node4 -> Node3 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="FreeSans.ttf"];
+  Node4 [label="BVBaseClient",height=0.2,width=0.4,color="black",URL="$classcom_1_1bluevia_1_1android_1_1commons_1_1client_1_1_b_v_base_client.html"];
+}

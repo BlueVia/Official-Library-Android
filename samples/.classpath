@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="/BlueviaSDK/libs/activation.jar"/>
+	<classpathentry kind="lib" path="/BlueviaSDK/libs/additionnal.jar"/>
+	<classpathentry kind="lib" path="/BlueviaSDK/libs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/BlueviaSDK/libs/mail.jar"/>
+	<classpathentry kind="lib" path="/BlueviaSDK/libs/signpost-commonshttp4-1.2.1.1.jar"/>
+	<classpathentry kind="lib" path="/BlueviaSDK/libs/signpost-core-1.2.1.1.jar"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
